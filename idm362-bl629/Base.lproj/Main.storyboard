@@ -44,7 +44,7 @@
                                 <color key="thumbTintColor" name="WhiteAccent"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIE-PF-NBX">
-                                <rect key="frame" x="20.000000000000004" y="308.66666666666669" width="49.333333333333343" height="21.666666666666686"/>
+                                <rect key="frame" x="20" y="308.66666666666669" width="373" height="21.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" name="WhiteAccent"/>
                                 <nil key="highlightedColor"/>
@@ -61,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mty-rK-dQ4">
-                                <rect key="frame" x="20" y="458" width="116" height="22"/>
+                                <rect key="frame" x="20" y="458" width="373" height="22"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" name="WhiteAccent"/>
                                 <nil key="highlightedColor"/>
@@ -74,15 +74,22 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Sound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBV-Ml-jM9">
-                                <rect key="frame" x="20" y="566" width="119" height="22"/>
+                                <rect key="frame" x="20" y="566" width="119" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" name="WhiteAccent"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mo-8G-fm3">
+                                <rect key="frame" x="342" y="559" width="35" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="+">
+                                    <backgroundConfiguration key="background" cornerRadius="22"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.99607843137254903" green="1" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="tintColor" red="0.2235293984" green="0.270588249" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="SpecialWhite"/>
+                        <color key="tintColor" name="WhiteAccent"/>
                         <constraints>
                             <constraint firstItem="Jsg-sF-1xX" firstAttribute="top" secondItem="WC3-nI-sGp" secondAttribute="bottom" constant="16" id="1c6-IY-683"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jsg-sF-1xX" secondAttribute="trailing" symbolic="YES" id="2wS-6k-MKh"/>
@@ -91,7 +98,7 @@
                             <constraint firstItem="lu4-zx-MTU" firstAttribute="trailing" secondItem="ioZ-Tq-T1e" secondAttribute="trailing" id="9c3-uY-PBT"/>
                             <constraint firstItem="Mty-rK-dQ4" firstAttribute="top" secondItem="A2f-lr-5RO" secondAttribute="bottom" constant="76.666666666666686" id="A3m-3U-WPn"/>
                             <constraint firstItem="A2f-lr-5RO" firstAttribute="top" secondItem="mIE-PF-NBX" secondAttribute="bottom" constant="17" id="A85-Bq-JR9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mty-rK-dQ4" secondAttribute="trailing" symbolic="YES" id="AYO-dU-SPD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mty-rK-dQ4" secondAttribute="trailing" symbolic="YES" id="AYO-dU-SPD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A2f-lr-5RO" secondAttribute="trailing" constant="20" id="CfN-Dl-bSu"/>
                             <constraint firstItem="A2f-lr-5RO" firstAttribute="leading" secondItem="mIE-PF-NBX" secondAttribute="leading" id="D6u-ms-dBq"/>
                             <constraint firstItem="mIE-PF-NBX" firstAttribute="top" secondItem="rTs-Pc-YHl" secondAttribute="bottom" constant="29" id="HFx-2T-qzO"/>
@@ -100,7 +107,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rTs-Pc-YHl" secondAttribute="trailing" symbolic="YES" id="R61-Dn-C8X"/>
                             <constraint firstItem="ioZ-Tq-T1e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Uam-4n-Ut5"/>
                             <constraint firstItem="lu4-zx-MTU" firstAttribute="top" secondItem="ioZ-Tq-T1e" secondAttribute="bottom" constant="31" id="VAA-46-VVf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mIE-PF-NBX" secondAttribute="trailing" symbolic="YES" id="aHF-ie-JJA"/>
+                            <constraint firstItem="1mo-8G-fm3" firstAttribute="centerY" secondItem="bBV-Ml-jM9" secondAttribute="centerY" id="WkL-3Q-qIe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mIE-PF-NBX" secondAttribute="trailing" symbolic="YES" id="aHF-ie-JJA"/>
                             <constraint firstItem="bBV-Ml-jM9" firstAttribute="leading" secondItem="Mty-rK-dQ4" secondAttribute="leading" id="e3G-l9-8yw"/>
                             <constraint firstItem="h4w-Mw-AIl" firstAttribute="centerY" secondItem="Mty-rK-dQ4" secondAttribute="centerY" id="euF-Lg-H3K"/>
                             <constraint firstItem="rTs-Pc-YHl" firstAttribute="leading" secondItem="ioZ-Tq-T1e" secondAttribute="leading" id="gbH-7n-X80"/>
@@ -108,7 +116,9 @@
                             <constraint firstItem="ioZ-Tq-T1e" firstAttribute="top" secondItem="Jsg-sF-1xX" secondAttribute="bottom" constant="20" id="iRq-Gk-SnT"/>
                             <constraint firstItem="Mty-rK-dQ4" firstAttribute="leading" secondItem="A2f-lr-5RO" secondAttribute="leading" id="jj3-h9-MrD"/>
                             <constraint firstItem="mIE-PF-NBX" firstAttribute="leading" secondItem="rTs-Pc-YHl" secondAttribute="leading" id="nMz-xl-eeV"/>
+                            <constraint firstItem="1mo-8G-fm3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bBV-Ml-jM9" secondAttribute="trailing" constant="8" symbolic="YES" id="nPr-w2-fvg"/>
                             <constraint firstItem="bBV-Ml-jM9" firstAttribute="top" secondItem="Mty-rK-dQ4" secondAttribute="bottom" constant="86" id="pPA-Us-7vA"/>
+                            <constraint firstItem="1mo-8G-fm3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qhX-XO-xsK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bBV-Ml-jM9" secondAttribute="trailing" symbolic="YES" id="sPQ-Bm-VPW"/>
                             <constraint firstItem="lu4-zx-MTU" firstAttribute="centerY" secondItem="rTs-Pc-YHl" secondAttribute="centerY" id="sk8-iU-ft9"/>
                             <constraint firstItem="Jsg-sF-1xX" firstAttribute="leading" secondItem="ioZ-Tq-T1e" secondAttribute="leading" id="ytJ-Aw-MPa"/>
