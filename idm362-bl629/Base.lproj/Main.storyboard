@@ -66,13 +66,6 @@
                                 <color key="textColor" name="WhiteAccent"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScoobyHeadshot" translatesAutoresizingMaskIntoConstraints="NO" id="h4w-Mw-AIl">
-                                <rect key="frame" x="309" y="437" width="64" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="TNA-XR-pyz"/>
-                                    <constraint firstAttribute="width" constant="64" id="ac1-f1-B4s"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Sound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBV-Ml-jM9">
                                 <rect key="frame" x="20" y="566" width="119" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
@@ -94,7 +87,6 @@
                             <constraint firstItem="Jsg-sF-1xX" firstAttribute="top" secondItem="WC3-nI-sGp" secondAttribute="bottom" constant="16" id="1c6-IY-683"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jsg-sF-1xX" secondAttribute="trailing" symbolic="YES" id="2wS-6k-MKh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ioZ-Tq-T1e" secondAttribute="trailing" constant="20" id="53V-68-sS1"/>
-                            <constraint firstItem="h4w-Mw-AIl" firstAttribute="trailing" secondItem="A2f-lr-5RO" secondAttribute="trailing" id="5Vj-96-5mj"/>
                             <constraint firstItem="lu4-zx-MTU" firstAttribute="trailing" secondItem="ioZ-Tq-T1e" secondAttribute="trailing" id="9c3-uY-PBT"/>
                             <constraint firstItem="Mty-rK-dQ4" firstAttribute="top" secondItem="A2f-lr-5RO" secondAttribute="bottom" constant="76.666666666666686" id="A3m-3U-WPn"/>
                             <constraint firstItem="A2f-lr-5RO" firstAttribute="top" secondItem="mIE-PF-NBX" secondAttribute="bottom" constant="17" id="A85-Bq-JR9"/>
@@ -110,7 +102,6 @@
                             <constraint firstItem="1mo-8G-fm3" firstAttribute="centerY" secondItem="bBV-Ml-jM9" secondAttribute="centerY" id="WkL-3Q-qIe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mIE-PF-NBX" secondAttribute="trailing" symbolic="YES" id="aHF-ie-JJA"/>
                             <constraint firstItem="bBV-Ml-jM9" firstAttribute="leading" secondItem="Mty-rK-dQ4" secondAttribute="leading" id="e3G-l9-8yw"/>
-                            <constraint firstItem="h4w-Mw-AIl" firstAttribute="centerY" secondItem="Mty-rK-dQ4" secondAttribute="centerY" id="euF-Lg-H3K"/>
                             <constraint firstItem="rTs-Pc-YHl" firstAttribute="leading" secondItem="ioZ-Tq-T1e" secondAttribute="leading" id="gbH-7n-X80"/>
                             <constraint firstItem="rTs-Pc-YHl" firstAttribute="top" secondItem="ioZ-Tq-T1e" secondAttribute="bottom" constant="35" id="iMD-qU-HRl"/>
                             <constraint firstItem="ioZ-Tq-T1e" firstAttribute="top" secondItem="Jsg-sF-1xX" secondAttribute="bottom" constant="20" id="iRq-Gk-SnT"/>
@@ -296,7 +287,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ScoobyHeadshot" width="344" height="344"/>
         <image name="gear" catalog="system" width="128" height="122"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="109"/>
