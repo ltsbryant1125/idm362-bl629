@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72F624929B06B4F00E37261 /* ViewControllerFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F624829B06B4F00E37261 /* ViewControllerFire.swift */; };
 		D7579FC229AFEAD000399BCB /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */; };
 		D7579FCC29B031E500399BCB /* Freeware License.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC429B031E500399BCB /* Freeware License.txt */; };
 		D7579FCD29B031E600399BCB /* Aganè 45 (light).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D72F624829B06B4F00E37261 /* ViewControllerFire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFire.swift; sourceTree = "<group>"; };
 		D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
 		D7579FC429B031E500399BCB /* Freeware License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Freeware License.txt"; sourceTree = "<group>"; };
 		D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 45 (light).ttf"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				D7AA92D42981FE4500FCE383 /* SceneDelegate.swift */,
 				D7AA92D62981FE4500FCE383 /* ViewController.swift */,
 				D7AA92D82981FE4500FCE383 /* Main.storyboard */,
+				D72F624829B06B4F00E37261 /* ViewControllerFire.swift */,
 				D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */,
 				D7AA92DB2981FE4700FCE383 /* Assets.xcassets */,
 				D7AA92DD2981FE4700FCE383 /* LaunchScreen.storyboard */,
@@ -183,6 +186,7 @@
 			files = (
 				D7AA92D72981FE4500FCE383 /* ViewController.swift in Sources */,
 				D7AA92D32981FE4500FCE383 /* AppDelegate.swift in Sources */,
+				D72F624929B06B4F00E37261 /* ViewControllerFire.swift in Sources */,
 				D7AA92D52981FE4500FCE383 /* SceneDelegate.swift in Sources */,
 				D7579FC229AFEAD000399BCB /* ViewControllerMain.swift in Sources */,
 			);

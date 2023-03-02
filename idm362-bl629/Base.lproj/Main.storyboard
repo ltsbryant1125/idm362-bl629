@@ -21,9 +21,93 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiI-IP-LNH">
+                                <rect key="frame" x="20" y="79" width="353" height="34"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="34"/>
+                                <color key="textColor" name="SquirtleBlue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squirtle" translatesAutoresizingMaskIntoConstraints="NO" id="eav-Aa-e5Z">
+                                <rect key="frame" x="-59.666666666666657" y="123" width="512.33333333333337" height="130"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="n4g-cB-BKh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Your Pokemon:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLL-2C-mYh">
+                                <rect key="frame" x="98.666666666666686" y="273" width="196" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="MsB-vA-5Ss"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
+                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="28.666666666666686"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="fqh-x0-o5W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9F-RR-OMN">
+                                <rect key="frame" x="167.66666666666666" y="354.66666666666669" width="58" height="44"/>
+                                <color key="backgroundColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="rDT-1A-iYc"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Info">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                    <color key="baseForegroundColor" name="SpecialWhite"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp0-94-pc5">
+                                <rect key="frame" x="159" y="423.66666666666669" width="75" height="44"/>
+                                <color key="backgroundColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2K2-XP-2iM"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Speak">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="SpecialWhite"/>
                         <color key="tintColor" name="WhiteAccent"/>
+                        <constraints>
+                            <constraint firstItem="C9F-RR-OMN" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="25" id="1KH-B3-0s2"/>
+                            <constraint firstItem="iLL-2C-mYh" firstAttribute="top" secondItem="eav-Aa-e5Z" secondAttribute="bottom" constant="20" id="3Hd-g1-VrG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oiI-IP-LNH" secondAttribute="trailing" constant="20" id="6Tt-76-MVf"/>
+                            <constraint firstItem="bp0-94-pc5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7RS-Ql-km4"/>
+                            <constraint firstItem="bp0-94-pc5" firstAttribute="top" secondItem="C9F-RR-OMN" secondAttribute="bottom" constant="25" id="9je-20-pG2"/>
+                            <constraint firstItem="iLL-2C-mYh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MTp-v0-V7y"/>
+                            <constraint firstItem="eav-Aa-e5Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RG5-iO-yar"/>
+                            <constraint firstItem="oiI-IP-LNH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RO0-xR-tJs"/>
+                            <constraint firstItem="C9F-RR-OMN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SB6-tt-mSB"/>
+                            <constraint firstItem="oiI-IP-LNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNC-ha-s11"/>
+                            <constraint firstItem="eav-Aa-e5Z" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="10" id="hVG-s3-BR0"/>
+                            <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="iLL-2C-mYh" secondAttribute="bottom" constant="10" id="n9a-Es-Xc3"/>
+                            <constraint firstItem="ygR-XE-62J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCb-VM-nns"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Water" image="drop.circle" catalog="system" selectedImage="drop.circle" id="Yri-fI-2js">
                         <color key="badgeColor" name="WhiteAccent"/>
@@ -31,23 +115,107 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1343" y="322"/>
+            <point key="canvasLocation" x="-1469" y="998"/>
         </scene>
         <!--Fire-->
         <scene sceneID="uOF-Fl-zL8">
             <objects>
-                <viewController title="Fire" id="AgI-Sc-fSN" sceneMemberID="viewController">
+                <viewController title="Fire" id="AgI-Sc-fSN" customClass="ViewControllerFire" customModule="idm362_bl629" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9AR-Fm-fVN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnU-CI-Y6H">
+                                <rect key="frame" x="20" y="79" width="353" height="34"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="34"/>
+                                <color key="textColor" name="CharmanderOrange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Charmander" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-67-zQ6">
+                                <rect key="frame" x="-59.666666666666657" y="123" width="512.33333333333337" height="130"/>
+                                <color key="tintColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="P7i-NV-9kS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Your Pokemon:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lz3-Jj-nwN">
+                                <rect key="frame" x="98.666666666666686" y="273" width="196" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="HcE-JI-PQe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
+                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="28.666666666666686"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="w8u-yW-DBR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="989-TY-pxf">
+                                <rect key="frame" x="167.66666666666666" y="354.66666666666669" width="58" height="44"/>
+                                <color key="backgroundColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="QVM-bQ-LhS"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Info">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                    <color key="baseForegroundColor" name="SpecialWhite"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APm-du-RCP">
+                                <rect key="frame" x="159" y="423.66666666666669" width="75" height="44"/>
+                                <color key="backgroundColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="lnz-Xm-K0W"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Speak">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Vat-cj-3QC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="APm-du-RCP" firstAttribute="top" secondItem="989-TY-pxf" secondAttribute="bottom" constant="25" id="0jP-1J-U6i"/>
+                            <constraint firstItem="yDK-4d-quR" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="0z0-of-kxM"/>
+                            <constraint firstItem="lz3-Jj-nwN" firstAttribute="top" secondItem="wMO-67-zQ6" secondAttribute="bottom" constant="20" id="3ZJ-dd-cr7"/>
+                            <constraint firstItem="APm-du-RCP" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Eir-ac-WnU"/>
+                            <constraint firstItem="989-TY-pxf" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="HSc-7m-AVP"/>
+                            <constraint firstItem="AnU-CI-Y6H" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="20" id="KzU-ZQ-vQD"/>
+                            <constraint firstItem="wMO-67-zQ6" firstAttribute="top" secondItem="AnU-CI-Y6H" secondAttribute="bottom" constant="10" id="LJz-AO-GWM"/>
+                            <constraint firstItem="989-TY-pxf" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="25" id="O7j-aP-1VE"/>
+                            <constraint firstItem="lz3-Jj-nwN" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Uka-IC-Jc1"/>
+                            <constraint firstItem="AnU-CI-Y6H" firstAttribute="top" secondItem="Vat-cj-3QC" secondAttribute="top" constant="20" id="Zil-6W-ptk"/>
+                            <constraint firstItem="wMO-67-zQ6" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="hPW-U1-IlU"/>
+                            <constraint firstItem="yDK-4d-quR" firstAttribute="top" secondItem="lz3-Jj-nwN" secondAttribute="bottom" constant="10" id="kRq-zG-OOo"/>
+                            <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="AnU-CI-Y6H" secondAttribute="trailing" constant="20" id="mDI-Kn-qf4"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fire" image="flame.circle" catalog="system" selectedImage="flame.circle" id="N0G-dr-a5p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNl-nz-BLk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-624" y="322"/>
+            <point key="canvasLocation" x="-140" y="310"/>
         </scene>
         <!--Grass-->
         <scene sceneID="OWb-ep-KxS">
@@ -79,8 +247,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
-                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
+                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="28.666666666666686"/>
+                                <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="8gb-lV-yaK"/>
                                 </constraints>
@@ -88,7 +257,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar2-e9-K7n">
-                                <rect key="frame" x="167.66666666666666" y="360" width="58" height="44"/>
+                                <rect key="frame" x="167.66666666666666" y="354.66666666666669" width="58" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="nyJ-wl-SHq"/>
@@ -106,7 +275,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEK-iU-Viw">
-                                <rect key="frame" x="159" y="429" width="75" height="44"/>
+                                <rect key="frame" x="159" y="423.66666666666669" width="75" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Ro7-pY-QVB"/>
@@ -148,7 +317,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OtC-EI-ILa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2031.2977099236641" y="321.83098591549299"/>
+            <point key="canvasLocation" x="-2654" y="322"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="feH-ZW-Q11">
@@ -174,6 +343,8 @@
     </scenes>
     <resources>
         <image name="Bulbasaur" width="512" height="512"/>
+        <image name="Charmander" width="512" height="512"/>
+        <image name="Squirtle" width="512" height="512"/>
         <image name="drop.circle" catalog="system" width="128" height="123"/>
         <image name="flame.circle" catalog="system" width="128" height="123"/>
         <image name="leaf.circle" catalog="system" width="128" height="123"/>
@@ -183,8 +354,14 @@
         <namedColor name="BulbasaurGreen">
             <color red="0.39599999785423279" green="0.77300000190734863" blue="0.39599999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="CharmanderOrange">
+            <color red="0.88999998569488525" green="0.49799999594688416" blue="0.3449999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="SpecialWhite">
             <color red="0.99599999189376831" green="1" blue="0.99199998378753662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SquirtleBlue">
+            <color red="0.20000000298023224" green="0.77999997138977051" blue="0.94099998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="WhiteAccent">
             <color red="0.7369999885559082" green="0.0" blue="0.47099998593330383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
