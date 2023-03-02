@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "scoobyheadshot@1x.png",
+      "filename" : "charmander@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "scoobyheadshot@2x.png",
+      "filename" : "charmander@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "scoobyheadshot@3x.png",
+      "filename" : "charmander@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

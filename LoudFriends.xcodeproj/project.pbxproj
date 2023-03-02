@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7579FC229AFEAD000399BCB /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */; };
+		D7579FCC29B031E500399BCB /* Freeware License.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC429B031E500399BCB /* Freeware License.txt */; };
+		D7579FCD29B031E600399BCB /* Aganè 45 (light).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */; };
+		D7579FCE29B031E600399BCB /* Aganè 75 (Extra Bold) sign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC629B031E500399BCB /* Aganè 75 (Extra Bold) sign.ttf */; };
+		D7579FCF29B031E600399BCB /* Aganè 65 (Bold).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC729B031E500399BCB /* Aganè 65 (Bold).ttf */; };
+		D7579FD029B031E600399BCB /* Aganè 65 (Bold) sign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC829B031E500399BCB /* Aganè 65 (Bold) sign.ttf */; };
+		D7579FD129B031E600399BCB /* Aganè 55 (roman).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC929B031E500399BCB /* Aganè 55 (roman).ttf */; };
+		D7579FD229B031E600399BCB /* Aganè 55 (roman) sign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FCA29B031E500399BCB /* Aganè 55 (roman) sign.ttf */; };
+		D7579FD329B031E600399BCB /* Aganè 75 (Extra Bold).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FCB29B031E500399BCB /* Aganè 75 (Extra Bold).ttf */; };
 		D7AA92D32981FE4500FCE383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA92D22981FE4500FCE383 /* AppDelegate.swift */; };
 		D7AA92D52981FE4500FCE383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA92D42981FE4500FCE383 /* SceneDelegate.swift */; };
 		D7AA92D72981FE4500FCE383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA92D62981FE4500FCE383 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		D7579FC429B031E500399BCB /* Freeware License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Freeware License.txt"; sourceTree = "<group>"; };
+		D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 45 (light).ttf"; sourceTree = "<group>"; };
+		D7579FC629B031E500399BCB /* Aganè 75 (Extra Bold) sign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 75 (Extra Bold) sign.ttf"; sourceTree = "<group>"; };
+		D7579FC729B031E500399BCB /* Aganè 65 (Bold).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 65 (Bold).ttf"; sourceTree = "<group>"; };
+		D7579FC829B031E500399BCB /* Aganè 65 (Bold) sign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 65 (Bold) sign.ttf"; sourceTree = "<group>"; };
+		D7579FC929B031E500399BCB /* Aganè 55 (roman).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 55 (roman).ttf"; sourceTree = "<group>"; };
+		D7579FCA29B031E500399BCB /* Aganè 55 (roman) sign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 55 (roman) sign.ttf"; sourceTree = "<group>"; };
+		D7579FCB29B031E500399BCB /* Aganè 75 (Extra Bold).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 75 (Extra Bold).ttf"; sourceTree = "<group>"; };
 		D7AA92CF2981FE4500FCE383 /* idm362-bl629.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idm362-bl629.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AA92D22981FE4500FCE383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7AA92D42981FE4500FCE383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7579FC329B031E500399BCB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7579FC429B031E500399BCB /* Freeware License.txt */,
+				D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */,
+				D7579FC629B031E500399BCB /* Aganè 75 (Extra Bold) sign.ttf */,
+				D7579FC729B031E500399BCB /* Aganè 65 (Bold).ttf */,
+				D7579FC829B031E500399BCB /* Aganè 65 (Bold) sign.ttf */,
+				D7579FC929B031E500399BCB /* Aganè 55 (roman).ttf */,
+				D7579FCA29B031E500399BCB /* Aganè 55 (roman) sign.ttf */,
+				D7579FCB29B031E500399BCB /* Aganè 75 (Extra Bold).ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		D7AA92C62981FE4500FCE383 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +93,11 @@
 				D7AA92D42981FE4500FCE383 /* SceneDelegate.swift */,
 				D7AA92D62981FE4500FCE383 /* ViewController.swift */,
 				D7AA92D82981FE4500FCE383 /* Main.storyboard */,
+				D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */,
 				D7AA92DB2981FE4700FCE383 /* Assets.xcassets */,
 				D7AA92DD2981FE4700FCE383 /* LaunchScreen.storyboard */,
 				D7AA92E02981FE4700FCE383 /* Info.plist */,
+				D7579FC329B031E500399BCB /* fonts */,
 			);
 			path = "idm362-bl629";
 			sourceTree = "<group>";
@@ -125,9 +160,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7579FD329B031E600399BCB /* Aganè 75 (Extra Bold).ttf in Resources */,
+				D7579FCE29B031E600399BCB /* Aganè 75 (Extra Bold) sign.ttf in Resources */,
 				D7AA92DF2981FE4700FCE383 /* LaunchScreen.storyboard in Resources */,
+				D7579FCF29B031E600399BCB /* Aganè 65 (Bold).ttf in Resources */,
+				D7579FD129B031E600399BCB /* Aganè 55 (roman).ttf in Resources */,
+				D7579FCD29B031E600399BCB /* Aganè 45 (light).ttf in Resources */,
 				D7AA92DC2981FE4700FCE383 /* Assets.xcassets in Resources */,
+				D7579FCC29B031E500399BCB /* Freeware License.txt in Resources */,
 				D7AA92DA2981FE4500FCE383 /* Main.storyboard in Resources */,
+				D7579FD029B031E600399BCB /* Aganè 65 (Bold) sign.ttf in Resources */,
+				D7579FD229B031E600399BCB /* Aganè 55 (roman) sign.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +184,7 @@
 				D7AA92D72981FE4500FCE383 /* ViewController.swift in Sources */,
 				D7AA92D32981FE4500FCE383 /* AppDelegate.swift in Sources */,
 				D7AA92D52981FE4500FCE383 /* SceneDelegate.swift in Sources */,
+				D7579FC229AFEAD000399BCB /* ViewControllerMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "idm362-bl629/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PokeSounds;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,6 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "idm362-bl629/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PokeSounds;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
