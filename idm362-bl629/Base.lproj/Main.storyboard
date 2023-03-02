@@ -45,20 +45,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
-                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="28.666666666666686"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
+                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="33"/>
                                 <color key="tintColor" name="SquirtleBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="fqh-x0-o5W"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="fqh-x0-o5W"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9F-RR-OMN">
-                                <rect key="frame" x="167.66666666666666" y="354.66666666666669" width="58" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7M-9h-cJu">
+                                <rect key="frame" x="134" y="354" width="125" height="44"/>
                                 <color key="backgroundColor" name="SquirtleBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="rDT-1A-iYc"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="LmS-YM-sgV"/>
+                                    <constraint firstAttribute="height" constant="44" id="ucd-w2-Gjd"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Enter"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="enterBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BEA-zO-vt9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAR-Ng-Tff">
+                                <rect key="frame" x="167.66666666666666" y="443" width="58" height="44"/>
+                                <color key="backgroundColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="CrY-TR-O86"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -72,11 +91,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp0-94-pc5">
-                                <rect key="frame" x="159" y="423.66666666666669" width="75" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfJ-ew-we3">
+                                <rect key="frame" x="159" y="512" width="75" height="44"/>
                                 <color key="backgroundColor" name="SquirtleBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="2K2-XP-2iM"/>
+                                    <constraint firstAttribute="height" constant="44" id="e2p-ci-spU"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -94,28 +113,34 @@
                         <color key="backgroundColor" name="SpecialWhite"/>
                         <color key="tintColor" name="WhiteAccent"/>
                         <constraints>
-                            <constraint firstItem="C9F-RR-OMN" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="25" id="1KH-B3-0s2"/>
+                            <constraint firstItem="jfJ-ew-we3" firstAttribute="top" secondItem="VAR-Ng-Tff" secondAttribute="bottom" constant="25" id="3C0-FJ-szg"/>
                             <constraint firstItem="iLL-2C-mYh" firstAttribute="top" secondItem="eav-Aa-e5Z" secondAttribute="bottom" constant="20" id="3Hd-g1-VrG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oiI-IP-LNH" secondAttribute="trailing" constant="20" id="6Tt-76-MVf"/>
-                            <constraint firstItem="bp0-94-pc5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7RS-Ql-km4"/>
-                            <constraint firstItem="bp0-94-pc5" firstAttribute="top" secondItem="C9F-RR-OMN" secondAttribute="bottom" constant="25" id="9je-20-pG2"/>
                             <constraint firstItem="iLL-2C-mYh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MTp-v0-V7y"/>
+                            <constraint firstItem="VAR-Ng-Tff" firstAttribute="top" secondItem="b7M-9h-cJu" secondAttribute="bottom" constant="45" id="OV3-b9-I30"/>
                             <constraint firstItem="eav-Aa-e5Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RG5-iO-yar"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RO0-xR-tJs"/>
-                            <constraint firstItem="C9F-RR-OMN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SB6-tt-mSB"/>
+                            <constraint firstItem="jfJ-ew-we3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TaY-Lo-RMl"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNC-ha-s11"/>
                             <constraint firstItem="eav-Aa-e5Z" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="10" id="hVG-s3-BR0"/>
+                            <constraint firstItem="b7M-9h-cJu" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="20" id="jUG-hV-rJU"/>
+                            <constraint firstItem="VAR-Ng-Tff" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kYb-iv-HNj"/>
                             <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="iLL-2C-mYh" secondAttribute="bottom" constant="10" id="n9a-Es-Xc3"/>
                             <constraint firstItem="ygR-XE-62J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCb-VM-nns"/>
+                            <constraint firstItem="b7M-9h-cJu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sja-PP-YGk"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Water" image="drop.circle" catalog="system" selectedImage="drop.circle" id="Yri-fI-2js">
                         <color key="badgeColor" name="WhiteAccent"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="nameText" destination="ygR-XE-62J" id="K57-qr-fDH"/>
+                        <outlet property="squirtLabel" destination="oiI-IP-LNH" id="QVm-iX-2rM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1469" y="998"/>
+            <point key="canvasLocation" x="-1420" y="322"/>
         </scene>
         <!--Fire-->
         <scene sceneID="uOF-Fl-zL8">
@@ -148,20 +173,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
-                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="28.666666666666686"/>
-                                <color key="tintColor" name="SquirtleBlue"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
+                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="33"/>
+                                <color key="tintColor" name="CharmanderOrange"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="w8u-yW-DBR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="w8u-yW-DBR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="989-TY-pxf">
-                                <rect key="frame" x="167.66666666666666" y="354.66666666666669" width="58" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbm-x9-1sf">
+                                <rect key="frame" x="134" y="354" width="125" height="44"/>
                                 <color key="backgroundColor" name="CharmanderOrange"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="QVM-bQ-LhS"/>
+                                    <constraint firstAttribute="height" constant="44" id="Jtf-1D-Muf"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="MUj-hE-Bm2"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Enter"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="enterBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="z78-F2-HdG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBe-HF-Cou">
+                                <rect key="frame" x="167.66666666666666" y="443" width="58" height="44"/>
+                                <color key="backgroundColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="GD3-aH-x2X"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -175,11 +219,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APm-du-RCP">
-                                <rect key="frame" x="159" y="423.66666666666669" width="75" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gy-TB-3l0">
+                                <rect key="frame" x="159" y="512" width="75" height="44"/>
                                 <color key="backgroundColor" name="CharmanderOrange"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="lnz-Xm-K0W"/>
+                                    <constraint firstAttribute="height" constant="44" id="aG5-6Q-g6B"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -196,26 +240,32 @@
                         <viewLayoutGuide key="safeArea" id="Vat-cj-3QC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="APm-du-RCP" firstAttribute="top" secondItem="989-TY-pxf" secondAttribute="bottom" constant="25" id="0jP-1J-U6i"/>
                             <constraint firstItem="yDK-4d-quR" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="0z0-of-kxM"/>
                             <constraint firstItem="lz3-Jj-nwN" firstAttribute="top" secondItem="wMO-67-zQ6" secondAttribute="bottom" constant="20" id="3ZJ-dd-cr7"/>
-                            <constraint firstItem="APm-du-RCP" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Eir-ac-WnU"/>
-                            <constraint firstItem="989-TY-pxf" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="HSc-7m-AVP"/>
+                            <constraint firstItem="IBe-HF-Cou" firstAttribute="top" secondItem="Jbm-x9-1sf" secondAttribute="bottom" constant="45" id="42q-9i-kyF"/>
                             <constraint firstItem="AnU-CI-Y6H" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="20" id="KzU-ZQ-vQD"/>
                             <constraint firstItem="wMO-67-zQ6" firstAttribute="top" secondItem="AnU-CI-Y6H" secondAttribute="bottom" constant="10" id="LJz-AO-GWM"/>
-                            <constraint firstItem="989-TY-pxf" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="25" id="O7j-aP-1VE"/>
+                            <constraint firstItem="6gy-TB-3l0" firstAttribute="top" secondItem="IBe-HF-Cou" secondAttribute="bottom" constant="25" id="SYG-U0-Lxw"/>
                             <constraint firstItem="lz3-Jj-nwN" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Uka-IC-Jc1"/>
                             <constraint firstItem="AnU-CI-Y6H" firstAttribute="top" secondItem="Vat-cj-3QC" secondAttribute="top" constant="20" id="Zil-6W-ptk"/>
+                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="b55-DS-KG4"/>
                             <constraint firstItem="wMO-67-zQ6" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="hPW-U1-IlU"/>
+                            <constraint firstItem="6gy-TB-3l0" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="hZ6-b9-hOY"/>
                             <constraint firstItem="yDK-4d-quR" firstAttribute="top" secondItem="lz3-Jj-nwN" secondAttribute="bottom" constant="10" id="kRq-zG-OOo"/>
                             <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="AnU-CI-Y6H" secondAttribute="trailing" constant="20" id="mDI-Kn-qf4"/>
+                            <constraint firstItem="IBe-HF-Cou" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="tU0-V4-9fU"/>
+                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="20" id="y8u-OJ-k8C"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fire" image="flame.circle" catalog="system" selectedImage="flame.circle" id="N0G-dr-a5p"/>
+                    <connections>
+                        <outlet property="charLabel" destination="AnU-CI-Y6H" id="5Gt-GX-Or6"/>
+                        <outlet property="nameText" destination="yDK-4d-quR" id="wIH-zi-xaN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNl-nz-BLk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-140" y="310"/>
+            <point key="canvasLocation" x="-527" y="322"/>
         </scene>
         <!--Grass-->
         <scene sceneID="OWb-ep-KxS">
@@ -247,20 +297,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
-                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="28.666666666666686"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
+                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="33"/>
                                 <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="8gb-lV-yaK"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="8gb-lV-yaK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar2-e9-K7n">
-                                <rect key="frame" x="167.66666666666666" y="354.66666666666669" width="58" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCN-Dq-FN9">
+                                <rect key="frame" x="134" y="354" width="125" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="nyJ-wl-SHq"/>
+                                    <constraint firstAttribute="height" constant="44" id="WHK-J3-pgf"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="unJ-WC-fiO"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Enter"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="enterBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="2fL-Is-due"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qz2-Ru-j1E">
+                                <rect key="frame" x="167.66666666666666" y="443" width="58" height="44"/>
+                                <color key="backgroundColor" name="BulbasaurGreen"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="TYG-x4-gvo"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -274,11 +343,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEK-iU-Viw">
-                                <rect key="frame" x="159" y="423.66666666666669" width="75" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdT-NZ-dUK">
+                                <rect key="frame" x="159" y="512" width="75" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Ro7-pY-QVB"/>
+                                    <constraint firstAttribute="height" constant="44" id="3Yv-aB-vEe"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -297,23 +366,29 @@
                         <color key="tintColor" name="AccentColor"/>
                         <constraints>
                             <constraint firstItem="jWC-V2-eZe" firstAttribute="top" secondItem="ZMy-R8-CU6" secondAttribute="bottom" constant="10" id="17k-rv-Um7"/>
+                            <constraint firstItem="LdT-NZ-dUK" firstAttribute="top" secondItem="qz2-Ru-j1E" secondAttribute="bottom" constant="25" id="6Ub-Ob-f9F"/>
                             <constraint firstItem="z5U-3K-D9a" firstAttribute="top" secondItem="DVR-65-aAV" secondAttribute="top" constant="20" id="7h4-KF-lH1"/>
-                            <constraint firstItem="ar2-e9-K7n" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="Ehb-ZL-aVy"/>
+                            <constraint firstItem="qz2-Ru-j1E" firstAttribute="top" secondItem="DCN-Dq-FN9" secondAttribute="bottom" constant="45" id="967-IX-TqG"/>
+                            <constraint firstItem="DCN-Dq-FN9" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="20" id="H5o-Jg-zAQ"/>
                             <constraint firstItem="1Yc-QW-wkA" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="IGD-NL-s8N"/>
                             <constraint firstItem="ZMy-R8-CU6" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="M7b-Ib-gDG"/>
-                            <constraint firstItem="yEK-iU-Viw" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="QFY-qZ-r3m"/>
-                            <constraint firstItem="yEK-iU-Viw" firstAttribute="top" secondItem="ar2-e9-K7n" secondAttribute="bottom" constant="25" id="XR3-oc-NVR"/>
+                            <constraint firstItem="DCN-Dq-FN9" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="Qoo-x8-nZa"/>
                             <constraint firstItem="z5U-3K-D9a" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="20" id="Yzf-q4-e1t"/>
                             <constraint firstItem="ZMy-R8-CU6" firstAttribute="top" secondItem="1Yc-QW-wkA" secondAttribute="bottom" constant="20" id="bE0-23-4PF"/>
                             <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="z5U-3K-D9a" secondAttribute="trailing" constant="20" id="g3N-DH-pap"/>
                             <constraint firstItem="jWC-V2-eZe" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="hYe-H5-SfQ"/>
-                            <constraint firstItem="ar2-e9-K7n" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="25" id="lxU-1N-dsR"/>
                             <constraint firstItem="1Yc-QW-wkA" firstAttribute="top" secondItem="z5U-3K-D9a" secondAttribute="bottom" constant="10" id="ovD-lA-1ad"/>
+                            <constraint firstItem="LdT-NZ-dUK" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="ppw-qq-PDv"/>
+                            <constraint firstItem="qz2-Ru-j1E" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="zM6-wm-Wtw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Grass" image="leaf.circle" catalog="system" selectedImage="leaf.circle" id="2Nn-Bn-5gp">
                         <color key="badgeColor" name="WhiteAccent"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="bulbLabel" destination="z5U-3K-D9a" id="yzQ-wB-kn9"/>
+                        <outlet property="nameText" destination="jWC-V2-eZe" id="dzb-8l-NOO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OtC-EI-ILa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

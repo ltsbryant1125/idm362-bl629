@@ -9,6 +9,10 @@ import UIKit
 
 class ViewControllerMain: UIViewController {
 
+    @IBOutlet weak var bulbLabel: UILabel!
+    
+    @IBOutlet weak var nameText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +20,10 @@ class ViewControllerMain: UIViewController {
     }
     
 
+    @IBAction func enterBTN(_ sender: Any) {
+        bulbLabel.text = "\(nameText.text!)"
+    }
+    
     /*
     // MARK: - Navigation
 
