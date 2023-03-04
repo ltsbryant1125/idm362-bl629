@@ -9,7 +9,9 @@ import UIKit
 
 class ViewControllerMain: UIViewController {
 
+
     @IBOutlet weak var bulbLabel: UILabel!
+    
     
     @IBOutlet weak var nameText: UITextField!
     
@@ -23,6 +25,12 @@ class ViewControllerMain: UIViewController {
     @IBAction func enterBTN(_ sender: Any) {
         bulbLabel.text = "\(nameText.text!)"
     }
+    
+    
+    @IBAction func resetBTN(_ sender: Any) {
+        bulbLabel.text = "Bulbasaur"
+    }
+    
     
     /*
     // MARK: - Navigation
