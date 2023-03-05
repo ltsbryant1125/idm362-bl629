@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import AVFoundation
+
+var charAudioPlayerObj = AVAudioPlayer()
 
 class ViewControllerFire: UIViewController {
 
@@ -19,6 +22,17 @@ class ViewControllerFire: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let charSound = Bundle.main.path(forResource: "pokesounds/charmander", ofType: "mp3")
+        
+        do {
+            charAudioPlayerObj = try
+            AVAudioPlayer(contentsOf: URL(fileURLWithPath: charSound!))
+            charAudioPlayerObj.prepareToPlay()
+            print("Sound file is loaded and ready!")
+        } catch {
+            print(error)
+        }
     }
     
     
@@ -31,6 +45,14 @@ class ViewControllerFire: UIViewController {
         charLabel.text = "Charmander"
     }
     
+    
+    @IBAction func charspeakBTN(_ sender: Any) {
+        if (charAudioPlayerObj.isPlaying) {
+            charAudioPlayerObj.stop()
+        } else {
+            charAudioPlayerObj.play()
+        }
+    }
     
     /*
     // MARK: - Navigation

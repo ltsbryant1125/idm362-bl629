@@ -274,6 +274,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="charspeakBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="Lj6-3k-ATY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vat-cj-3QC"/>
