@@ -109,6 +109,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="yMr-jZ-uIP" kind="show" id="J7O-Od-ICC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-mW-6sa">
                                 <rect key="frame" x="208" y="602" width="100" height="44"/>
@@ -259,6 +262,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="VJa-j6-1md" kind="show" id="63Q-Mo-VOI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uF-P4-awN">
                                 <rect key="frame" x="208" y="602" width="100" height="44"/>
@@ -546,6 +552,120 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rkv-CZ-Uh2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2428.2442748091603" y="1129.5774647887324"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hwO-yc-Zl3">
+            <objects>
+                <viewController id="yMr-jZ-uIP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E4q-fB-Yvh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squirtle" translatesAutoresizingMaskIntoConstraints="NO" id="f7R-mw-0T9">
+                                <rect key="frame" x="-59.666666666666657" y="40" width="512.33333333333337" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="tjJ-Nk-oFk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fn-q0-jjo">
+                                <rect key="frame" x="137" y="375" width="119" height="32"/>
+                                <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type: Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5O-r4-zYH">
+                                <rect key="frame" x="140.66666666666666" y="427" width="112" height="20"/>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle is a small reptilian Pokémon that resembles a light-blue turtle. " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tx4-n2-ayK">
+                                <rect key="frame" x="10" y="467" width="373" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6gh-i3-uNs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jq9-5Q-aiQ"/>
+                        <color key="backgroundColor" name="SquirtleBlue"/>
+                        <color key="tintColor" name="SpecialWhite"/>
+                        <constraints>
+                            <constraint firstItem="v5O-r4-zYH" firstAttribute="centerX" secondItem="E4q-fB-Yvh" secondAttribute="centerX" id="CcP-eQ-Kxt"/>
+                            <constraint firstItem="Tx4-n2-ayK" firstAttribute="top" secondItem="v5O-r4-zYH" secondAttribute="bottom" constant="20" id="CmH-ni-feA"/>
+                            <constraint firstItem="3fn-q0-jjo" firstAttribute="centerX" secondItem="E4q-fB-Yvh" secondAttribute="centerX" id="Don-kq-9t5"/>
+                            <constraint firstItem="f7R-mw-0T9" firstAttribute="centerX" secondItem="E4q-fB-Yvh" secondAttribute="centerX" id="FhQ-Qs-mu5"/>
+                            <constraint firstItem="3fn-q0-jjo" firstAttribute="top" secondItem="f7R-mw-0T9" secondAttribute="bottom" constant="35" id="OQp-uL-w5z"/>
+                            <constraint firstItem="Tx4-n2-ayK" firstAttribute="leading" secondItem="E4q-fB-Yvh" secondAttribute="leading" constant="10" id="goR-TX-M51"/>
+                            <constraint firstAttribute="trailing" secondItem="Tx4-n2-ayK" secondAttribute="trailing" constant="10" id="hlw-UO-v1Y"/>
+                            <constraint firstItem="v5O-r4-zYH" firstAttribute="top" secondItem="3fn-q0-jjo" secondAttribute="bottom" constant="20" id="m5s-mA-1j5"/>
+                            <constraint firstItem="f7R-mw-0T9" firstAttribute="top" secondItem="E4q-fB-Yvh" secondAttribute="top" constant="40" id="t3s-5k-IFa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JsZ-zg-phT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5oa-ug-4vf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1422.1374045801526" y="1129.5774647887324"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EC3-hW-2aP">
+            <objects>
+                <viewController id="VJa-j6-1md" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JSK-Fs-PRj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Charmander" translatesAutoresizingMaskIntoConstraints="NO" id="NOS-op-lef">
+                                <rect key="frame" x="-59.666666666666657" y="40" width="512.33333333333337" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="59F-cT-6KP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VId-j3-2C7">
+                                <rect key="frame" x="104" y="375" width="185" height="32"/>
+                                <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type: Fire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vu-pv-2so">
+                                <rect key="frame" x="152" y="427" width="89" height="20"/>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander is a bipedal, reptilian Pokémon with a primarily orange body and blue eyes." textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoi-OH-2Yp">
+                                <rect key="frame" x="10" y="467" width="373" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="pY6-TS-plW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NFq-w1-q43"/>
+                        <color key="backgroundColor" name="CharmanderOrange"/>
+                        <color key="tintColor" name="SpecialWhite"/>
+                        <constraints>
+                            <constraint firstItem="3vu-pv-2so" firstAttribute="centerX" secondItem="JSK-Fs-PRj" secondAttribute="centerX" id="LWe-Us-xfP"/>
+                            <constraint firstItem="xoi-OH-2Yp" firstAttribute="top" secondItem="3vu-pv-2so" secondAttribute="bottom" constant="20" id="Lxz-1W-kMh"/>
+                            <constraint firstItem="NFq-w1-q43" firstAttribute="trailing" secondItem="xoi-OH-2Yp" secondAttribute="trailing" constant="10" id="Xyj-9U-sv0"/>
+                            <constraint firstItem="xoi-OH-2Yp" firstAttribute="leading" secondItem="NFq-w1-q43" secondAttribute="leading" constant="10" id="Zyf-Dd-pjA"/>
+                            <constraint firstItem="NOS-op-lef" firstAttribute="centerX" secondItem="JSK-Fs-PRj" secondAttribute="centerX" id="bgu-Gx-mjA"/>
+                            <constraint firstItem="VId-j3-2C7" firstAttribute="top" secondItem="NOS-op-lef" secondAttribute="bottom" constant="35" id="fhq-E1-GyT"/>
+                            <constraint firstItem="VId-j3-2C7" firstAttribute="centerX" secondItem="JSK-Fs-PRj" secondAttribute="centerX" id="vVA-RA-4Nd"/>
+                            <constraint firstItem="NOS-op-lef" firstAttribute="top" secondItem="JSK-Fs-PRj" secondAttribute="top" constant="40" id="vxG-3K-jqa"/>
+                            <constraint firstItem="3vu-pv-2so" firstAttribute="top" secondItem="VId-j3-2C7" secondAttribute="bottom" constant="20" id="wmM-7l-IJV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="j5k-Ko-RFy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqy-fB-6Zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506.1068702290076" y="1129.5774647887324"/>
         </scene>
     </scenes>
     <resources>
