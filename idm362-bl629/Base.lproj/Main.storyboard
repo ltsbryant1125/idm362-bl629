@@ -29,61 +29,17 @@
                                 <color key="textColor" name="SquirtleBlue"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squirtle" translatesAutoresizingMaskIntoConstraints="NO" id="eav-Aa-e5Z">
-                                <rect key="frame" x="-59.666666666666657" y="123" width="512.33333333333337" height="130"/>
-                                <color key="tintColor" name="SquirtleBlue"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="n4g-cB-BKh"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Your Pokemon:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLL-2C-mYh">
-                                <rect key="frame" x="98.666666666666686" y="273" width="196" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="MsB-vA-5Ss"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
-                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="33"/>
-                                <color key="tintColor" name="SquirtleBlue"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="fqh-x0-o5W"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7M-9h-cJu">
-                                <rect key="frame" x="134" y="354" width="125" height="44"/>
+                                <rect key="frame" x="85" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="SquirtleBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="LmS-YM-sgV"/>
-                                    <constraint firstAttribute="height" constant="44" id="ucd-w2-Gjd"/>
+                                    <constraint firstAttribute="height" constant="44" id="5P4-Wx-jKJ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="dWI-Sf-CQl"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Enter"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="enterBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BEA-zO-vt9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAR-Ng-Tff">
-                                <rect key="frame" x="167.66666666666666" y="443" width="58" height="44"/>
-                                <color key="backgroundColor" name="SquirtleBlue"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="CrY-TR-O86"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Info">
+                                <buttonConfiguration key="configuration" style="plain" title="Enter">
                                     <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                    <color key="baseForegroundColor" name="SpecialWhite"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -91,11 +47,65 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfJ-ew-we3">
-                                <rect key="frame" x="159" y="512" width="75" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swg-ig-vaP">
+                                <rect key="frame" x="203" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="SquirtleBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="e2p-ci-spU"/>
+                                    <constraint firstAttribute="height" constant="44" id="MVh-dG-nKd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="wh6-8A-GPx"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
+                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aXU-oG-7ba"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="fqh-x0-o5W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squirtle" translatesAutoresizingMaskIntoConstraints="NO" id="wkD-dB-NH3">
+                                <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="aGa-CS-rNS"/>
+                                    <constraint firstAttribute="height" constant="300" id="z6j-g7-H4Z"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvO-fc-OW5">
+                                <rect key="frame" x="85" y="602" width="100" height="44"/>
+                                <color key="backgroundColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="V57-YO-Evj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="aVb-71-4PJ"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Info">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-mW-6sa">
+                                <rect key="frame" x="203" y="602" width="100" height="44"/>
+                                <color key="backgroundColor" name="SquirtleBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="3Kn-sV-UyW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Lcy-db-SpU"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -113,34 +123,32 @@
                         <color key="backgroundColor" name="SpecialWhite"/>
                         <color key="tintColor" name="WhiteAccent"/>
                         <constraints>
-                            <constraint firstItem="jfJ-ew-we3" firstAttribute="top" secondItem="VAR-Ng-Tff" secondAttribute="bottom" constant="25" id="3C0-FJ-szg"/>
-                            <constraint firstItem="iLL-2C-mYh" firstAttribute="top" secondItem="eav-Aa-e5Z" secondAttribute="bottom" constant="20" id="3Hd-g1-VrG"/>
+                            <constraint firstItem="wkD-dB-NH3" firstAttribute="top" secondItem="b7M-9h-cJu" secondAttribute="bottom" constant="25" id="2gW-r6-zpH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oiI-IP-LNH" secondAttribute="trailing" constant="20" id="6Tt-76-MVf"/>
-                            <constraint firstItem="iLL-2C-mYh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MTp-v0-V7y"/>
-                            <constraint firstItem="VAR-Ng-Tff" firstAttribute="top" secondItem="b7M-9h-cJu" secondAttribute="bottom" constant="45" id="OV3-b9-I30"/>
-                            <constraint firstItem="eav-Aa-e5Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RG5-iO-yar"/>
+                            <constraint firstItem="TvO-fc-OW5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Jqa-ZP-lkF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="swg-ig-vaP" secondAttribute="trailing" constant="90" id="REg-Bn-Hta"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RO0-xR-tJs"/>
-                            <constraint firstItem="jfJ-ew-we3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TaY-Lo-RMl"/>
+                            <constraint firstItem="HAf-mW-6sa" firstAttribute="leading" secondItem="TvO-fc-OW5" secondAttribute="trailing" constant="18" id="Rsg-9h-Ohn"/>
+                            <constraint firstItem="b7M-9h-cJu" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="10" id="SsS-jk-Tav"/>
+                            <constraint firstItem="TvO-fc-OW5" firstAttribute="top" secondItem="wkD-dB-NH3" secondAttribute="bottom" constant="55" id="YXR-CF-GhO"/>
+                            <constraint firstItem="swg-ig-vaP" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="10" id="dEa-Ar-g8j"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNC-ha-s11"/>
-                            <constraint firstItem="eav-Aa-e5Z" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="10" id="hVG-s3-BR0"/>
-                            <constraint firstItem="b7M-9h-cJu" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="20" id="jUG-hV-rJU"/>
-                            <constraint firstItem="VAR-Ng-Tff" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kYb-iv-HNj"/>
-                            <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="iLL-2C-mYh" secondAttribute="bottom" constant="10" id="n9a-Es-Xc3"/>
+                            <constraint firstItem="swg-ig-vaP" firstAttribute="leading" secondItem="b7M-9h-cJu" secondAttribute="trailing" constant="18" id="eO0-UW-YqL"/>
+                            <constraint firstItem="b7M-9h-cJu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="iUK-Ob-95a"/>
+                            <constraint firstItem="HAf-mW-6sa" firstAttribute="top" secondItem="wkD-dB-NH3" secondAttribute="bottom" constant="55" id="o6K-cW-ULc"/>
                             <constraint firstItem="ygR-XE-62J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCb-VM-nns"/>
-                            <constraint firstItem="b7M-9h-cJu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sja-PP-YGk"/>
+                            <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="25" id="pZE-Yq-fjM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAf-mW-6sa" secondAttribute="trailing" constant="90" id="qfu-jD-Gh9"/>
+                            <constraint firstItem="wkD-dB-NH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sZB-fF-2u7"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Water" image="drop.circle" catalog="system" selectedImage="drop.circle" id="Yri-fI-2js">
                         <color key="badgeColor" name="WhiteAccent"/>
                     </tabBarItem>
-                    <connections>
-                        <outlet property="nameText" destination="ygR-XE-62J" id="K57-qr-fDH"/>
-                        <outlet property="squirtLabel" destination="oiI-IP-LNH" id="QVm-iX-2rM"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1469" y="339"/>
+            <point key="canvasLocation" x="-1422.1374045801526" y="338.73239436619718"/>
         </scene>
         <!--Fire-->
         <scene sceneID="uOF-Fl-zL8">
@@ -283,16 +291,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
-                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="29.666666666666657"/>
+                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
                                 <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="8gb-lV-yaK"/>
+                                    <constraint firstAttribute="height" constant="30" id="oca-zh-6OJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5r-Y4-DNp">
-                                <rect key="frame" x="85" y="177.66666666666666" width="100" height="44"/>
+                                <rect key="frame" x="85" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="CiJ-bd-aDp"/>
@@ -314,7 +323,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxL-HU-wS4">
-                                <rect key="frame" x="203" y="177.66666666666666" width="100" height="44"/>
+                                <rect key="frame" x="203" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="bph-Uw-lJt"/>
@@ -336,14 +345,14 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bulbasaur" translatesAutoresizingMaskIntoConstraints="NO" id="e9V-AD-o91">
-                                <rect key="frame" x="46.666666666666657" y="246.66666666666663" width="300" height="300"/>
+                                <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Kbn-sp-zA1"/>
                                     <constraint firstAttribute="height" constant="300" id="dQJ-Yw-ZZF"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-xG-Rka">
-                                <rect key="frame" x="85" y="601.66666666666663" width="100" height="44"/>
+                                <rect key="frame" x="85" y="602" width="100" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="vq3-9I-tJI"/>
@@ -361,7 +370,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-jw-OZG">
-                                <rect key="frame" x="203" y="601.66666666666663" width="100" height="44"/>
+                                <rect key="frame" x="203" y="602" width="100" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="8B0-zb-Ez9"/>

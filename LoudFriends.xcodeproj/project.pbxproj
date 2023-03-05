@@ -93,8 +93,8 @@
 			children = (
 				D7AA92D22981FE4500FCE383 /* AppDelegate.swift */,
 				D7AA92D42981FE4500FCE383 /* SceneDelegate.swift */,
-				D7AA92D62981FE4500FCE383 /* ViewController.swift */,
 				D7AA92D82981FE4500FCE383 /* Main.storyboard */,
+				D7AA92D62981FE4500FCE383 /* ViewController.swift */,
 				D72F624829B06B4F00E37261 /* ViewControllerFire.swift */,
 				D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */,
 				D7AA92DB2981FE4700FCE383 /* Assets.xcassets */,
