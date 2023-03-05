@@ -12,8 +12,8 @@ class ViewControllerFire: UIViewController {
     
     @IBOutlet weak var charLabel: UILabel!
     
-    @IBOutlet weak var nameText: UITextField!
     
+    @IBOutlet weak var nameText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +21,14 @@ class ViewControllerFire: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
     @IBAction func enterBTN(_ sender: Any) {
         charLabel.text = "\(nameText.text!)"
+    }
+    
+    
+    @IBAction func resetBTN(_ sender: Any) {
+        charLabel.text = "Charmander"
     }
     
     

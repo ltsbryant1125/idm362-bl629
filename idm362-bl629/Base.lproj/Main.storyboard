@@ -46,9 +46,12 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="enterBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fxx-OP-007"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swg-ig-vaP">
-                                <rect key="frame" x="203" y="178" width="100" height="44"/>
+                                <rect key="frame" x="208" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="SquirtleBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="MVh-dG-nKd"/>
@@ -64,6 +67,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YWo-lb-Syg"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
                                 <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
@@ -77,6 +83,7 @@
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squirtle" translatesAutoresizingMaskIntoConstraints="NO" id="wkD-dB-NH3">
                                 <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <color key="tintColor" name="SquirtleBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="aGa-CS-rNS"/>
                                     <constraint firstAttribute="height" constant="300" id="z6j-g7-H4Z"/>
@@ -101,7 +108,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-mW-6sa">
-                                <rect key="frame" x="203" y="602" width="100" height="44"/>
+                                <rect key="frame" x="208" y="602" width="100" height="44"/>
                                 <color key="backgroundColor" name="SquirtleBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="3Kn-sV-UyW"/>
@@ -126,25 +133,29 @@
                             <constraint firstItem="wkD-dB-NH3" firstAttribute="top" secondItem="b7M-9h-cJu" secondAttribute="bottom" constant="25" id="2gW-r6-zpH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oiI-IP-LNH" secondAttribute="trailing" constant="20" id="6Tt-76-MVf"/>
                             <constraint firstItem="TvO-fc-OW5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Jqa-ZP-lkF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="swg-ig-vaP" secondAttribute="trailing" constant="90" id="REg-Bn-Hta"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="swg-ig-vaP" secondAttribute="trailing" constant="85" id="REg-Bn-Hta"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RO0-xR-tJs"/>
-                            <constraint firstItem="HAf-mW-6sa" firstAttribute="leading" secondItem="TvO-fc-OW5" secondAttribute="trailing" constant="18" id="Rsg-9h-Ohn"/>
                             <constraint firstItem="b7M-9h-cJu" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="10" id="SsS-jk-Tav"/>
                             <constraint firstItem="TvO-fc-OW5" firstAttribute="top" secondItem="wkD-dB-NH3" secondAttribute="bottom" constant="55" id="YXR-CF-GhO"/>
                             <constraint firstItem="swg-ig-vaP" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="10" id="dEa-Ar-g8j"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNC-ha-s11"/>
-                            <constraint firstItem="swg-ig-vaP" firstAttribute="leading" secondItem="b7M-9h-cJu" secondAttribute="trailing" constant="18" id="eO0-UW-YqL"/>
                             <constraint firstItem="b7M-9h-cJu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="iUK-Ob-95a"/>
                             <constraint firstItem="HAf-mW-6sa" firstAttribute="top" secondItem="wkD-dB-NH3" secondAttribute="bottom" constant="55" id="o6K-cW-ULc"/>
                             <constraint firstItem="ygR-XE-62J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCb-VM-nns"/>
                             <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="25" id="pZE-Yq-fjM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAf-mW-6sa" secondAttribute="trailing" constant="90" id="qfu-jD-Gh9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAf-mW-6sa" secondAttribute="trailing" constant="85" id="qfu-jD-Gh9"/>
+                            <constraint firstItem="HAf-mW-6sa" firstAttribute="leading" secondItem="TvO-fc-OW5" secondAttribute="trailing" constant="23" id="r9V-s2-PB4"/>
+                            <constraint firstItem="swg-ig-vaP" firstAttribute="leading" secondItem="b7M-9h-cJu" secondAttribute="trailing" constant="23" id="rxc-IF-VCq"/>
                             <constraint firstItem="wkD-dB-NH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sZB-fF-2u7"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Water" image="drop.circle" catalog="system" selectedImage="drop.circle" id="Yri-fI-2js">
                         <color key="badgeColor" name="WhiteAccent"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="nameText" destination="ygR-XE-62J" id="QMw-pV-tw7"/>
+                        <outlet property="squirtLabel" destination="oiI-IP-LNH" id="PXh-Th-ee7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,61 +176,77 @@
                                 <color key="textColor" name="CharmanderOrange"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Charmander" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-67-zQ6">
-                                <rect key="frame" x="-59.666666666666657" y="123" width="512.33333333333337" height="130"/>
-                                <color key="tintColor" name="CharmanderOrange"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="P7i-NV-9kS"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Your Pokemon:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lz3-Jj-nwN">
-                                <rect key="frame" x="98.666666666666686" y="273" width="196" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="HcE-JI-PQe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
-                                <rect key="frame" x="98.666666666666686" y="301" width="196" height="33"/>
-                                <color key="tintColor" name="CharmanderOrange"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="w8u-yW-DBR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbm-x9-1sf">
-                                <rect key="frame" x="134" y="354" width="125" height="44"/>
+                                <rect key="frame" x="85" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="CharmanderOrange"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Jtf-1D-Muf"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="MUj-hE-Bm2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="VsU-aL-UYE"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Enter"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Enter">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="enterBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="z78-F2-HdG"/>
+                                    <action selector="enterBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="kZL-8g-Qbr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBe-HF-Cou">
-                                <rect key="frame" x="167.33333333333334" y="443" width="58.333333333333343" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOX-US-cLR">
+                                <rect key="frame" x="208" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="CharmanderOrange"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="GD3-aH-x2X"/>
+                                    <constraint firstAttribute="height" constant="44" id="H4J-Fb-MLH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="nQL-nF-OWA"/>
+                                </constraints>
+                                <color key="tintColor" name="SpecialWhite"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="3GF-VY-h2v"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
+                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
+                                <color key="tintColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0YV-Cw-SHZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="32Q-BT-jKN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Charmander" translatesAutoresizingMaskIntoConstraints="NO" id="fpc-jK-Qlw">
+                                <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <color key="tintColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="6F4-cg-J5T"/>
+                                    <constraint firstAttribute="width" constant="300" id="O4j-aG-qh9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWu-Te-GN0">
+                                <rect key="frame" x="85" y="602" width="100" height="44"/>
+                                <color key="backgroundColor" name="CharmanderOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cSv-xa-eSX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="nGE-2L-6Ic"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Info">
                                     <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                    <color key="baseForegroundColor" name="SpecialWhite"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -227,11 +254,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gy-TB-3l0">
-                                <rect key="frame" x="159" y="512" width="75" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uF-P4-awN">
+                                <rect key="frame" x="208" y="602" width="100" height="44"/>
                                 <color key="backgroundColor" name="CharmanderOrange"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="aG5-6Q-g6B"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="3aP-16-ewt"/>
+                                    <constraint firstAttribute="height" constant="44" id="emy-ae-zNo"/>
                                 </constraints>
                                 <color key="tintColor" name="SpecialWhite"/>
                                 <state key="normal" title="Button"/>
@@ -248,27 +276,29 @@
                         <viewLayoutGuide key="safeArea" id="Vat-cj-3QC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="yDK-4d-quR" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="0z0-of-kxM"/>
-                            <constraint firstItem="lz3-Jj-nwN" firstAttribute="top" secondItem="wMO-67-zQ6" secondAttribute="bottom" constant="20" id="3ZJ-dd-cr7"/>
-                            <constraint firstItem="IBe-HF-Cou" firstAttribute="top" secondItem="Jbm-x9-1sf" secondAttribute="bottom" constant="45" id="42q-9i-kyF"/>
+                            <constraint firstItem="MWu-Te-GN0" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="85" id="3R9-jN-wIo"/>
+                            <constraint firstItem="0uF-P4-awN" firstAttribute="top" secondItem="fpc-jK-Qlw" secondAttribute="bottom" constant="55" id="58A-6Q-Sjx"/>
+                            <constraint firstItem="yDK-4d-quR" firstAttribute="top" secondItem="AnU-CI-Y6H" secondAttribute="bottom" constant="25" id="DJO-UT-OBM"/>
+                            <constraint firstItem="KOX-US-cLR" firstAttribute="leading" secondItem="Jbm-x9-1sf" secondAttribute="trailing" constant="23" id="EBj-2T-q6E"/>
+                            <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="KOX-US-cLR" secondAttribute="trailing" constant="85" id="Geg-jT-tju"/>
+                            <constraint firstItem="fpc-jK-Qlw" firstAttribute="top" secondItem="Jbm-x9-1sf" secondAttribute="bottom" constant="25" id="IQq-Ac-K0K"/>
                             <constraint firstItem="AnU-CI-Y6H" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="20" id="KzU-ZQ-vQD"/>
-                            <constraint firstItem="wMO-67-zQ6" firstAttribute="top" secondItem="AnU-CI-Y6H" secondAttribute="bottom" constant="10" id="LJz-AO-GWM"/>
-                            <constraint firstItem="6gy-TB-3l0" firstAttribute="top" secondItem="IBe-HF-Cou" secondAttribute="bottom" constant="25" id="SYG-U0-Lxw"/>
-                            <constraint firstItem="lz3-Jj-nwN" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Uka-IC-Jc1"/>
+                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="10" id="LlS-x7-fOh"/>
+                            <constraint firstItem="MWu-Te-GN0" firstAttribute="top" secondItem="fpc-jK-Qlw" secondAttribute="bottom" constant="55" id="Pek-hs-HG8"/>
+                            <constraint firstItem="yDK-4d-quR" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Z9c-Kq-NeC"/>
                             <constraint firstItem="AnU-CI-Y6H" firstAttribute="top" secondItem="Vat-cj-3QC" secondAttribute="top" constant="20" id="Zil-6W-ptk"/>
-                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="b55-DS-KG4"/>
-                            <constraint firstItem="wMO-67-zQ6" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="hPW-U1-IlU"/>
-                            <constraint firstItem="6gy-TB-3l0" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="hZ6-b9-hOY"/>
-                            <constraint firstItem="yDK-4d-quR" firstAttribute="top" secondItem="lz3-Jj-nwN" secondAttribute="bottom" constant="10" id="kRq-zG-OOo"/>
+                            <constraint firstItem="fpc-jK-Qlw" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="a9S-iu-kpW"/>
+                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="85" id="aU3-EI-CrH"/>
+                            <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="0uF-P4-awN" secondAttribute="trailing" constant="85" id="dsy-zS-tHb"/>
+                            <constraint firstItem="0uF-P4-awN" firstAttribute="leading" secondItem="MWu-Te-GN0" secondAttribute="trailing" constant="23" id="jpm-ml-uIy"/>
                             <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="AnU-CI-Y6H" secondAttribute="trailing" constant="20" id="mDI-Kn-qf4"/>
-                            <constraint firstItem="IBe-HF-Cou" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="tU0-V4-9fU"/>
-                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="20" id="y8u-OJ-k8C"/>
+                            <constraint firstItem="KOX-US-cLR" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="10" id="p8T-GD-wx0"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fire" image="flame.circle" catalog="system" selectedImage="flame.circle" id="N0G-dr-a5p"/>
                     <connections>
-                        <outlet property="charLabel" destination="AnU-CI-Y6H" id="5Gt-GX-Or6"/>
-                        <outlet property="nameText" destination="yDK-4d-quR" id="wIH-zi-xaN"/>
+                        <outlet property="charLabel" destination="AnU-CI-Y6H" id="rKS-s1-MYC"/>
+                        <outlet property="nameText" destination="yDK-4d-quR" id="vIc-xF-JTB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNl-nz-BLk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -323,7 +353,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxL-HU-wS4">
-                                <rect key="frame" x="203" y="178" width="100" height="44"/>
+                                <rect key="frame" x="208" y="178" width="100" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="bph-Uw-lJt"/>
@@ -346,6 +376,7 @@
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bulbasaur" translatesAutoresizingMaskIntoConstraints="NO" id="e9V-AD-o91">
                                 <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Kbn-sp-zA1"/>
                                     <constraint firstAttribute="height" constant="300" id="dQJ-Yw-ZZF"/>
@@ -370,7 +401,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-jw-OZG">
-                                <rect key="frame" x="203" y="602" width="100" height="44"/>
+                                <rect key="frame" x="208" y="602" width="100" height="44"/>
                                 <color key="backgroundColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="8B0-zb-Ez9"/>
@@ -395,20 +426,20 @@
                             <constraint firstItem="z5U-3K-D9a" firstAttribute="top" secondItem="DVR-65-aAV" secondAttribute="top" constant="20" id="7h4-KF-lH1"/>
                             <constraint firstItem="h5r-Y4-DNp" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="10" id="EPc-1g-76x"/>
                             <constraint firstItem="e9V-AD-o91" firstAttribute="top" secondItem="h5r-Y4-DNp" secondAttribute="bottom" constant="25" id="G8b-AU-4gK"/>
-                            <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="RxL-HU-wS4" secondAttribute="trailing" constant="90" id="HLu-zh-pys"/>
+                            <constraint firstItem="RxL-HU-wS4" firstAttribute="leading" secondItem="h5r-Y4-DNp" secondAttribute="trailing" constant="23" id="Gwh-q0-fNT"/>
+                            <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="RxL-HU-wS4" secondAttribute="trailing" constant="85" id="HLu-zh-pys"/>
                             <constraint firstItem="wKA-xG-Rka" firstAttribute="top" secondItem="e9V-AD-o91" secondAttribute="bottom" constant="55" id="O97-qn-zYd"/>
-                            <constraint firstItem="RxL-HU-wS4" firstAttribute="leading" secondItem="h5r-Y4-DNp" secondAttribute="trailing" constant="18" id="QcR-J3-Pmz"/>
                             <constraint firstItem="e9V-AD-o91" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="TLV-Me-jg8"/>
                             <constraint firstItem="RxL-HU-wS4" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="10" id="WPr-9a-4Yv"/>
-                            <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="Q4N-jw-OZG" secondAttribute="trailing" constant="90" id="XvS-Vl-2kc"/>
+                            <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="Q4N-jw-OZG" secondAttribute="trailing" constant="85" id="XvS-Vl-2kc"/>
                             <constraint firstItem="z5U-3K-D9a" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="20" id="Yzf-q4-e1t"/>
                             <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="z5U-3K-D9a" secondAttribute="trailing" constant="20" id="g3N-DH-pap"/>
+                            <constraint firstItem="Q4N-jw-OZG" firstAttribute="leading" secondItem="wKA-xG-Rka" secondAttribute="trailing" constant="23" id="gIU-xP-iFG"/>
                             <constraint firstItem="jWC-V2-eZe" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="hYe-H5-SfQ"/>
                             <constraint firstItem="Q4N-jw-OZG" firstAttribute="top" secondItem="e9V-AD-o91" secondAttribute="bottom" constant="55" id="jms-Mb-SKB"/>
                             <constraint firstItem="wKA-xG-Rka" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="85" id="ovQ-q5-qYL"/>
                             <constraint firstItem="jWC-V2-eZe" firstAttribute="top" secondItem="z5U-3K-D9a" secondAttribute="bottom" constant="25" id="pGt-s0-bex"/>
                             <constraint firstItem="h5r-Y4-DNp" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="85" id="xyQ-Cx-Kcl"/>
-                            <constraint firstItem="Q4N-jw-OZG" firstAttribute="leading" secondItem="wKA-xG-Rka" secondAttribute="trailing" constant="18" id="yeS-xw-W0z"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Grass" image="leaf.circle" catalog="system" selectedImage="leaf.circle" id="2Nn-Bn-5gp">
