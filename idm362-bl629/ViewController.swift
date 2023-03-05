@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import AVFoundation
+
+var squirtAudioPlayerObj = AVAudioPlayer()
 
 class ViewController: UIViewController {
 
@@ -17,6 +20,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let squirtSound = Bundle.main.path(forResource: "pokesounds/squirtle", ofType: "mp3")
+        
+        do {
+            squirtAudioPlayerObj = try
+            AVAudioPlayer(contentsOf: URL(fileURLWithPath: squirtSound!))
+            squirtAudioPlayerObj.prepareToPlay()
+            print("Sound file is loaded and ready")
+        } catch{
+            print(error)
+        }
+        
     }
 
     @IBAction func enterBTN(_ sender: Any) {
@@ -28,5 +43,14 @@ class ViewController: UIViewController {
         squirtLabel.text = "Squirtle"
     }
     
+    
+    @IBAction func squirtspeakBTN(_ sender: Any) {
+        print("squirtspeakBTN called")
+        if (squirtAudioPlayerObj.isPlaying) {
+            squirtAudioPlayerObj.stop()
+        } else {
+            squirtAudioPlayerObj.play()
+        }
+    }
+    
 }
-
