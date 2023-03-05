@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import AVFoundation
+
+var myAudioPLayerObj = AVAudioPlayer()
 
 class ViewControllerMain: UIViewController {
 
@@ -19,6 +22,18 @@ class ViewControllerMain: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let bulbSound = Bundle.main.path(forResource: "pokesounds/bulbasaur", ofType: "mp3")
+        
+        do {
+            myAudioPLayerObj = try
+            AVAudioPlayer(contentsOf: URL(fileURLWithPath: bulbSound!))
+            myAudioPLayerObj.prepareToPlay()
+            print("Sound file is loaded and ready!")
+        } catch {
+            print(error)
+        }
+        
     }
     
 
@@ -31,6 +46,17 @@ class ViewControllerMain: UIViewController {
         bulbLabel.text = "Bulbasaur"
     }
     
+    
+    
+    @IBAction func bulbspeakBTN(_ sender: Any) {
+        print("bulbspeakBTN called")
+        if(myAudioPLayerObj.isPlaying) {
+            myAudioPLayerObj.stop()
+        } else {
+            myAudioPLayerObj.play()
+        }
+        
+    }
     
     /*
     // MARK: - Navigation

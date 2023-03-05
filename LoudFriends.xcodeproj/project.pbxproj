@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D72F624929B06B4F00E37261 /* ViewControllerFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F624829B06B4F00E37261 /* ViewControllerFire.swift */; };
+		D7454BB229B4204800D8E7E5 /* pokesounds in Resources */ = {isa = PBXBuildFile; fileRef = D7454BB129B4204800D8E7E5 /* pokesounds */; };
 		D7579FC229AFEAD000399BCB /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */; };
 		D7579FCC29B031E500399BCB /* Freeware License.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC429B031E500399BCB /* Freeware License.txt */; };
 		D7579FCD29B031E600399BCB /* Aganè 45 (light).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		D72F624829B06B4F00E37261 /* ViewControllerFire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFire.swift; sourceTree = "<group>"; };
+		D7454BB129B4204800D8E7E5 /* pokesounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pokesounds; path = "idm362-bl629/pokesounds"; sourceTree = SOURCE_ROOT; };
 		D7579FC129AFEAD000399BCB /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
 		D7579FC429B031E500399BCB /* Freeware License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Freeware License.txt"; sourceTree = "<group>"; };
 		D7579FC529B031E500399BCB /* Aganè 45 (light).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aganè 45 (light).ttf"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D7AA92DD2981FE4700FCE383 /* LaunchScreen.storyboard */,
 				D7AA92E02981FE4700FCE383 /* Info.plist */,
 				D7579FC329B031E500399BCB /* fonts */,
+				D7454BB129B4204800D8E7E5 /* pokesounds */,
 			);
 			path = "idm362-bl629";
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				D7AA92DF2981FE4700FCE383 /* LaunchScreen.storyboard in Resources */,
 				D7579FCF29B031E600399BCB /* Aganè 65 (Bold).ttf in Resources */,
 				D7579FD129B031E600399BCB /* Aganè 55 (roman).ttf in Resources */,
+				D7454BB229B4204800D8E7E5 /* pokesounds in Resources */,
 				D7579FCD29B031E600399BCB /* Aganè 45 (light).ttf in Resources */,
 				D7AA92DC2981FE4700FCE383 /* Assets.xcassets in Resources */,
 				D7579FCC29B031E500399BCB /* Freeware License.txt in Resources */,

@@ -417,6 +417,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bulbspeakBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="7K3-6B-Yli"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DVR-65-aAV"/>
