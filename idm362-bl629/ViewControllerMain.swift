@@ -38,7 +38,13 @@ class ViewControllerMain: UIViewController {
     
 
     @IBAction func enterBTN(_ sender: Any) {
-        bulbLabel.text = "\(nameText.text!)"
+        if (nameText.text?.isEmpty)! {
+            bulbLabel.text = "Bulbasaur"
+        }
+        
+        else {
+            bulbLabel.text = "\(nameText.text!)"
+        }
     }
     
     

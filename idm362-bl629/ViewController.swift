@@ -35,7 +35,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func enterBTN(_ sender: Any) {
-        squirtLabel.text = "\(nameText.text!)"
+        if (nameText.text?.isEmpty)! {
+            squirtLabel.text = "Squirtle"
+        }
+        
+        else {
+            squirtLabel.text = "\(nameText.text!)"
+        }
     }
     
     

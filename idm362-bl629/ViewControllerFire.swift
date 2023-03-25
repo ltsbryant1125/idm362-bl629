@@ -37,7 +37,13 @@ class ViewControllerFire: UIViewController {
     
     
     @IBAction func enterBTN(_ sender: Any) {
-        charLabel.text = "\(nameText.text!)"
+        if (nameText.text?.isEmpty)! {
+            charLabel.text = "Charmander"
+        }
+        
+        else {
+            charLabel.text = "\(nameText.text!)"
+        }
     }
     
     

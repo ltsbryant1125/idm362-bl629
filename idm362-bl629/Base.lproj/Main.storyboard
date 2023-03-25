@@ -74,7 +74,7 @@
                                     <action selector="resetBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YWo-lb-Syg"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
                                 <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
                                 <color key="tintColor" name="SquirtleBlue"/>
                                 <constraints>
@@ -227,7 +227,7 @@
                                     <action selector="resetBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="3GF-VY-h2v"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
                                 <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
                                 <color key="tintColor" name="CharmanderOrange"/>
                                 <constraints>
@@ -335,7 +335,7 @@
                                 <color key="textColor" name="BulbasaurGreen"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
                                 <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
                                 <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
@@ -511,18 +511,18 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulbasaur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4K-NU-qoV">
-                                <rect key="frame" x="121.66666666666669" y="375" width="150" height="32"/>
+                                <rect key="frame" x="121.66666666666667" y="375" width="149.66666666666663" height="32"/>
                                 <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type: Grass &amp; Poison" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8R-cc-QMt">
-                                <rect key="frame" x="99.666666666666686" y="427" width="194" height="20"/>
+                                <rect key="frame" x="100.00000000000001" y="427" width="193.33333333333337" height="20"/>
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKe-mK-y1Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. " lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKe-mK-y1Z">
                                 <rect key="frame" x="15" y="467" width="363" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="ija-ng-YvO"/>
@@ -568,7 +568,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fn-q0-jjo">
-                                <rect key="frame" x="137" y="375" width="119" height="32"/>
+                                <rect key="frame" x="137.33333333333334" y="375" width="118.33333333333334" height="32"/>
                                 <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -579,7 +579,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle is a small reptilian Pokémon that resembles a light-blue turtle. " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tx4-n2-ayK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle is a small reptilian Pokémon that resembles a light-blue turtle. " lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tx4-n2-ayK">
                                 <rect key="frame" x="10" y="467" width="373" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="6gh-i3-uNs"/>
@@ -625,18 +625,18 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VId-j3-2C7">
-                                <rect key="frame" x="104" y="375" width="185" height="32"/>
+                                <rect key="frame" x="104.33333333333333" y="375" width="184.33333333333337" height="32"/>
                                 <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type: Fire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vu-pv-2so">
-                                <rect key="frame" x="152" y="427" width="89" height="20"/>
+                                <rect key="frame" x="152.33333333333334" y="427" width="88.666666666666657" height="20"/>
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander is a bipedal, reptilian Pokémon with a primarily orange body and blue eyes." textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoi-OH-2Yp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander is a bipedal, reptilian Pokémon with a primarily orange body and blue eyes." lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoi-OH-2Yp">
                                 <rect key="frame" x="10" y="467" width="373" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="pY6-TS-plW"/>
