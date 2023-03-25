@@ -26,56 +26,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirtle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiI-IP-LNH">
-                                <rect key="frame" x="20" y="79" width="353" height="34"/>
+                                <rect key="frame" x="20" y="74" width="353" height="34"/>
                                 <color key="tintColor" name="SquirtleBlue"/>
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="34"/>
                                 <color key="textColor" name="SquirtleBlue"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7M-9h-cJu">
-                                <rect key="frame" x="85" y="178" width="100" height="44"/>
-                                <color key="backgroundColor" name="SquirtleBlue"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="5P4-Wx-jKJ"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="dWI-Sf-CQl"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Enter">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="enterBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fxx-OP-007"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swg-ig-vaP">
-                                <rect key="frame" x="208" y="178" width="100" height="44"/>
-                                <color key="backgroundColor" name="SquirtleBlue"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="MVh-dG-nKd"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="wh6-8A-GPx"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reset">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="resetBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YWo-lb-Syg"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ygR-XE-62J">
-                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
+                                <rect key="frame" x="98.666666666666686" y="123" width="196" height="30"/>
                                 <color key="tintColor" name="SquirtleBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="aXU-oG-7ba"/>
@@ -85,77 +43,131 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squirtle" translatesAutoresizingMaskIntoConstraints="NO" id="wkD-dB-NH3">
-                                <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <rect key="frame" x="-59.666666666666657" y="263.66666666666669" width="512.33333333333337" height="325.00000000000006"/>
                                 <color key="tintColor" name="SquirtleBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="aGa-CS-rNS"/>
-                                    <constraint firstAttribute="height" constant="300" id="z6j-g7-H4Z"/>
+                                    <constraint firstAttribute="height" constant="325" id="xvA-Os-jlz"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvO-fc-OW5">
-                                <rect key="frame" x="85" y="602" width="100" height="44"/>
-                                <color key="backgroundColor" name="SquirtleBlue"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Qx3-kG-OeK">
+                                <rect key="frame" x="36.666666666666657" y="168" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7M-9h-cJu">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="SquirtleBlue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="BZN-VQ-dIn"/>
+                                            <constraint firstAttribute="height" constant="44" id="icg-eN-5eF"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Enter">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fxx-OP-007"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swg-ig-vaP">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="SquirtleBlue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="eOh-B2-oln"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="resetBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YWo-lb-Syg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2023 Pokemon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc." textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fy-mW-YrI">
+                                <rect key="frame" x="28.666666666666657" y="727" width="335.66666666666674" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="V57-YO-Evj"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="aVb-71-4PJ"/>
+                                    <constraint firstAttribute="height" constant="42" id="7Ps-Uv-I65"/>
                                 </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Info">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="yMr-jZ-uIP" kind="show" id="J7O-Od-ICC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-mW-6sa">
-                                <rect key="frame" x="208" y="602" width="100" height="44"/>
-                                <color key="backgroundColor" name="SquirtleBlue"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="3Kn-sV-UyW"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Lcy-db-SpU"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Speak">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="squirtspeakBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVF-Ug-A30"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Tfi-tN-EQK">
+                                <rect key="frame" x="36.666666666666657" y="675" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvO-fc-OW5">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="SquirtleBlue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="LqY-C5-eFK"/>
+                                            <constraint firstAttribute="height" constant="44" id="gLI-78-thr"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Info">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="yMr-jZ-uIP" kind="show" id="J7O-Od-ICC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-mW-6sa">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="SquirtleBlue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="t3N-eo-tBh"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Speak">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="squirtspeakBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVF-Ug-A30"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="SpecialWhite"/>
                         <color key="tintColor" name="WhiteAccent"/>
                         <constraints>
-                            <constraint firstItem="wkD-dB-NH3" firstAttribute="top" secondItem="b7M-9h-cJu" secondAttribute="bottom" constant="25" id="2gW-r6-zpH"/>
+                            <constraint firstItem="Qx3-kG-OeK" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="15" id="463-fz-Ip6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oiI-IP-LNH" secondAttribute="trailing" constant="20" id="6Tt-76-MVf"/>
-                            <constraint firstItem="TvO-fc-OW5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Jqa-ZP-lkF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="swg-ig-vaP" secondAttribute="trailing" constant="85" id="REg-Bn-Hta"/>
+                            <constraint firstItem="0Fy-mW-YrI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FoW-bT-ow3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Fy-mW-YrI" secondAttribute="bottom" id="K9L-Xg-NfA"/>
+                            <constraint firstItem="wkD-dB-NH3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RAe-2l-WC7"/>
                             <constraint firstItem="oiI-IP-LNH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RO0-xR-tJs"/>
-                            <constraint firstItem="b7M-9h-cJu" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="10" id="SsS-jk-Tav"/>
-                            <constraint firstItem="TvO-fc-OW5" firstAttribute="top" secondItem="wkD-dB-NH3" secondAttribute="bottom" constant="55" id="YXR-CF-GhO"/>
-                            <constraint firstItem="swg-ig-vaP" firstAttribute="top" secondItem="ygR-XE-62J" secondAttribute="bottom" constant="10" id="dEa-Ar-g8j"/>
-                            <constraint firstItem="oiI-IP-LNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNC-ha-s11"/>
-                            <constraint firstItem="b7M-9h-cJu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="iUK-Ob-95a"/>
-                            <constraint firstItem="HAf-mW-6sa" firstAttribute="top" secondItem="wkD-dB-NH3" secondAttribute="bottom" constant="55" id="o6K-cW-ULc"/>
+                            <constraint firstItem="Tfi-tN-EQK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WF0-8U-atn"/>
+                            <constraint firstItem="0Fy-mW-YrI" firstAttribute="top" secondItem="Tfi-tN-EQK" secondAttribute="bottom" constant="8" symbolic="YES" id="cln-vo-R2F"/>
+                            <constraint firstItem="oiI-IP-LNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="dNC-ha-s11"/>
+                            <constraint firstItem="wkD-dB-NH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEb-Xp-fMc"/>
                             <constraint firstItem="ygR-XE-62J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCb-VM-nns"/>
-                            <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="25" id="pZE-Yq-fjM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAf-mW-6sa" secondAttribute="trailing" constant="85" id="qfu-jD-Gh9"/>
-                            <constraint firstItem="HAf-mW-6sa" firstAttribute="leading" secondItem="TvO-fc-OW5" secondAttribute="trailing" constant="23" id="r9V-s2-PB4"/>
-                            <constraint firstItem="swg-ig-vaP" firstAttribute="leading" secondItem="b7M-9h-cJu" secondAttribute="trailing" constant="23" id="rxc-IF-VCq"/>
-                            <constraint firstItem="wkD-dB-NH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sZB-fF-2u7"/>
+                            <constraint firstItem="ygR-XE-62J" firstAttribute="top" secondItem="oiI-IP-LNH" secondAttribute="bottom" constant="15" id="pZE-Yq-fjM"/>
+                            <constraint firstItem="Qx3-kG-OeK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w7H-tM-Tuq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Water" image="drop.circle" catalog="system" selectedImage="drop.circle" id="Yri-fI-2js">
@@ -179,56 +191,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnU-CI-Y6H">
-                                <rect key="frame" x="20" y="79" width="353" height="34"/>
+                                <rect key="frame" x="20" y="74" width="353" height="34"/>
                                 <color key="tintColor" name="SquirtleBlue"/>
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="34"/>
                                 <color key="textColor" name="CharmanderOrange"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbm-x9-1sf">
-                                <rect key="frame" x="85" y="178" width="100" height="44"/>
-                                <color key="backgroundColor" name="CharmanderOrange"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Jtf-1D-Muf"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="VsU-aL-UYE"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Enter">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="enterBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="kZL-8g-Qbr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOX-US-cLR">
-                                <rect key="frame" x="208" y="178" width="100" height="44"/>
-                                <color key="backgroundColor" name="CharmanderOrange"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="H4J-Fb-MLH"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="nQL-nF-OWA"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reset">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="resetBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="3GF-VY-h2v"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yDK-4d-quR">
-                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
+                                <rect key="frame" x="98.666666666666686" y="123" width="196" height="30"/>
                                 <color key="tintColor" name="CharmanderOrange"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0YV-Cw-SHZ"/>
@@ -238,76 +208,130 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Charmander" translatesAutoresizingMaskIntoConstraints="NO" id="fpc-jK-Qlw">
-                                <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <rect key="frame" x="-59.666666666666657" y="263.66666666666669" width="512.33333333333337" height="325.00000000000006"/>
                                 <color key="tintColor" name="CharmanderOrange"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="6F4-cg-J5T"/>
-                                    <constraint firstAttribute="width" constant="300" id="O4j-aG-qh9"/>
+                                    <constraint firstAttribute="height" constant="325" id="vx3-RF-I78"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWu-Te-GN0">
-                                <rect key="frame" x="85" y="602" width="100" height="44"/>
-                                <color key="backgroundColor" name="CharmanderOrange"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3tC-PT-xB8">
+                                <rect key="frame" x="36.666666666666657" y="168" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbm-x9-1sf">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="CharmanderOrange"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="P9X-aq-3pE"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="aOE-iE-iWG"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Enter">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="kZL-8g-Qbr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOX-US-cLR">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="CharmanderOrange"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="DhZ-N3-zgZ"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="resetBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="3GF-VY-h2v"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2023 Pokemon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc." textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJ3-bH-1G7">
+                                <rect key="frame" x="28.666666666666657" y="727" width="335.66666666666674" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="cSv-xa-eSX"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="nGE-2L-6Ic"/>
+                                    <constraint firstAttribute="height" constant="42" id="Rfx-S7-vhj"/>
                                 </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Info">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="VJa-j6-1md" kind="show" id="63Q-Mo-VOI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uF-P4-awN">
-                                <rect key="frame" x="208" y="602" width="100" height="44"/>
-                                <color key="backgroundColor" name="CharmanderOrange"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="3aP-16-ewt"/>
-                                    <constraint firstAttribute="height" constant="44" id="emy-ae-zNo"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Speak">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="charspeakBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="Lj6-3k-ATY"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fOw-mq-rUO">
+                                <rect key="frame" x="36.666666666666657" y="675" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWu-Te-GN0">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="CharmanderOrange"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="Clc-dd-d6N"/>
+                                            <constraint firstAttribute="height" constant="44" id="Hpa-4h-JfT"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Info">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="VJa-j6-1md" kind="show" id="63Q-Mo-VOI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uF-P4-awN">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="CharmanderOrange"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="5vm-rC-gdU"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Speak">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="charspeakBTN:" destination="AgI-Sc-fSN" eventType="touchUpInside" id="Lj6-3k-ATY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vat-cj-3QC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="MWu-Te-GN0" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="85" id="3R9-jN-wIo"/>
-                            <constraint firstItem="0uF-P4-awN" firstAttribute="top" secondItem="fpc-jK-Qlw" secondAttribute="bottom" constant="55" id="58A-6Q-Sjx"/>
-                            <constraint firstItem="yDK-4d-quR" firstAttribute="top" secondItem="AnU-CI-Y6H" secondAttribute="bottom" constant="25" id="DJO-UT-OBM"/>
-                            <constraint firstItem="KOX-US-cLR" firstAttribute="leading" secondItem="Jbm-x9-1sf" secondAttribute="trailing" constant="23" id="EBj-2T-q6E"/>
-                            <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="KOX-US-cLR" secondAttribute="trailing" constant="85" id="Geg-jT-tju"/>
-                            <constraint firstItem="fpc-jK-Qlw" firstAttribute="top" secondItem="Jbm-x9-1sf" secondAttribute="bottom" constant="25" id="IQq-Ac-K0K"/>
+                            <constraint firstItem="fpc-jK-Qlw" firstAttribute="centerY" secondItem="9AR-Fm-fVN" secondAttribute="centerY" id="BZa-jw-akx"/>
+                            <constraint firstItem="yDK-4d-quR" firstAttribute="top" secondItem="AnU-CI-Y6H" secondAttribute="bottom" constant="15" id="DJO-UT-OBM"/>
                             <constraint firstItem="AnU-CI-Y6H" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="20" id="KzU-ZQ-vQD"/>
-                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="10" id="LlS-x7-fOh"/>
-                            <constraint firstItem="MWu-Te-GN0" firstAttribute="top" secondItem="fpc-jK-Qlw" secondAttribute="bottom" constant="55" id="Pek-hs-HG8"/>
                             <constraint firstItem="yDK-4d-quR" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="Z9c-Kq-NeC"/>
-                            <constraint firstItem="AnU-CI-Y6H" firstAttribute="top" secondItem="Vat-cj-3QC" secondAttribute="top" constant="20" id="Zil-6W-ptk"/>
-                            <constraint firstItem="fpc-jK-Qlw" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="a9S-iu-kpW"/>
-                            <constraint firstItem="Jbm-x9-1sf" firstAttribute="leading" secondItem="Vat-cj-3QC" secondAttribute="leading" constant="85" id="aU3-EI-CrH"/>
-                            <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="0uF-P4-awN" secondAttribute="trailing" constant="85" id="dsy-zS-tHb"/>
-                            <constraint firstItem="0uF-P4-awN" firstAttribute="leading" secondItem="MWu-Te-GN0" secondAttribute="trailing" constant="23" id="jpm-ml-uIy"/>
+                            <constraint firstItem="AnU-CI-Y6H" firstAttribute="top" secondItem="Vat-cj-3QC" secondAttribute="top" constant="15" id="Zil-6W-ptk"/>
+                            <constraint firstItem="3tC-PT-xB8" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="cAF-Uq-ek5"/>
+                            <constraint firstItem="wJ3-bH-1G7" firstAttribute="top" secondItem="fOw-mq-rUO" secondAttribute="bottom" constant="8" symbolic="YES" id="fdT-pE-ZHx"/>
+                            <constraint firstItem="wJ3-bH-1G7" firstAttribute="bottom" secondItem="Vat-cj-3QC" secondAttribute="bottom" id="jv0-Yi-BWW"/>
                             <constraint firstItem="Vat-cj-3QC" firstAttribute="trailing" secondItem="AnU-CI-Y6H" secondAttribute="trailing" constant="20" id="mDI-Kn-qf4"/>
-                            <constraint firstItem="KOX-US-cLR" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="10" id="p8T-GD-wx0"/>
+                            <constraint firstItem="3tC-PT-xB8" firstAttribute="top" secondItem="yDK-4d-quR" secondAttribute="bottom" constant="15" id="oPU-Jg-aBc"/>
+                            <constraint firstItem="fOw-mq-rUO" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="qDZ-9d-R6R"/>
+                            <constraint firstItem="wJ3-bH-1G7" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="rUw-pu-xGK"/>
+                            <constraint firstItem="fpc-jK-Qlw" firstAttribute="centerX" secondItem="9AR-Fm-fVN" secondAttribute="centerX" id="u08-iP-u8V"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fire" image="flame.circle" catalog="system" selectedImage="flame.circle" id="N0G-dr-a5p"/>
@@ -329,14 +353,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulbasaur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5U-3K-D9a">
-                                <rect key="frame" x="20" y="79" width="353" height="34"/>
+                                <rect key="frame" x="20" y="74" width="353" height="34"/>
                                 <color key="tintColor" name="BulbasaurGreen"/>
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="34"/>
                                 <color key="textColor" name="BulbasaurGreen"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jWC-V2-eZe">
-                                <rect key="frame" x="98.666666666666686" y="138" width="196" height="30"/>
+                                <rect key="frame" x="98.666666666666686" y="123" width="196" height="30"/>
                                 <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="8gb-lV-yaK"/>
@@ -345,122 +369,134 @@
                                 <fontDescription key="fontDescription" name="Aan55" family="Aganè" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5r-Y4-DNp">
-                                <rect key="frame" x="85" y="178" width="100" height="44"/>
-                                <color key="backgroundColor" name="BulbasaurGreen"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="CiJ-bd-aDp"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="FBd-Tg-0d2"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Enter">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                    <color key="baseForegroundColor" name="SpecialWhite"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="enterBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="mTh-6p-n81"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxL-HU-wS4">
-                                <rect key="frame" x="208" y="178" width="100" height="44"/>
-                                <color key="backgroundColor" name="BulbasaurGreen"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="bph-Uw-lJt"/>
-                                    <constraint firstAttribute="height" constant="44" id="j9r-vx-lee"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reset">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                    <color key="baseForegroundColor" name="SpecialWhite"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="resetBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="Ze0-RE-mOD"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bulbasaur" translatesAutoresizingMaskIntoConstraints="NO" id="e9V-AD-o91">
-                                <rect key="frame" x="46.666666666666657" y="247" width="300" height="300"/>
+                                <rect key="frame" x="-59.666666666666657" y="263.66666666666669" width="512.33333333333337" height="325.00000000000006"/>
                                 <color key="tintColor" name="BulbasaurGreen"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="Kbn-sp-zA1"/>
-                                    <constraint firstAttribute="height" constant="300" id="dQJ-Yw-ZZF"/>
+                                    <constraint firstAttribute="height" constant="325" id="wl2-hz-Xox"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-xG-Rka">
-                                <rect key="frame" x="85" y="602" width="100" height="44"/>
-                                <color key="backgroundColor" name="BulbasaurGreen"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2023 Pokemon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc." textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1U-uQ-ozR">
+                                <rect key="frame" x="28.666666666666657" y="727" width="335.66666666666674" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="vq3-9I-tJI"/>
-                                    <constraint firstAttribute="height" constant="44" id="w2t-iA-hZr"/>
+                                    <constraint firstAttribute="height" constant="42" id="4T0-7S-w5a"/>
                                 </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Info">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="6Fr-fV-qQn" kind="show" id="31o-y3-CXg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-jw-OZG">
-                                <rect key="frame" x="208" y="602" width="100" height="44"/>
-                                <color key="backgroundColor" name="BulbasaurGreen"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="8B0-zb-Ez9"/>
-                                    <constraint firstAttribute="height" constant="44" id="iGG-XB-unl"/>
-                                </constraints>
-                                <color key="tintColor" name="SpecialWhite"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Speak">
-                                    <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="bulbspeakBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="7K3-6B-Yli"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="AganS55" family="Aganè S" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7yH-t1-fA5">
+                                <rect key="frame" x="36.666666666666657" y="675" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-xG-Rka">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="BulbasaurGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="SYg-VZ-2yS"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="ZHa-UC-cEn"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Info">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="6Fr-fV-qQn" kind="show" id="31o-y3-CXg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-jw-OZG">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="BulbasaurGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="H99-6V-PUG"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Speak">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="bulbspeakBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="7K3-6B-Yli"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-nY-Plw">
+                                <rect key="frame" x="36.666666666666657" y="168" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5r-Y4-DNp">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="BulbasaurGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="7Bn-Yt-Sob"/>
+                                            <constraint firstAttribute="height" constant="44" id="Yy3-SS-T5Q"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Enter">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                            <color key="baseForegroundColor" name="SpecialWhite"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="mTh-6p-n81"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxL-HU-wS4">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="44"/>
+                                        <color key="backgroundColor" name="BulbasaurGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="X9w-jH-ABH"/>
+                                        </constraints>
+                                        <color key="tintColor" name="SpecialWhite"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                            <fontDescription key="titleFontDescription" name="Aan55" family="Aganè" pointSize="18"/>
+                                            <color key="baseForegroundColor" name="SpecialWhite"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="resetBTN:" destination="HmB-zQ-wnf" eventType="touchUpInside" id="Ze0-RE-mOD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DVR-65-aAV"/>
                         <color key="backgroundColor" red="0.99674645440567455" green="1" blue="0.99077593137849995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" name="AccentColor"/>
                         <constraints>
-                            <constraint firstItem="z5U-3K-D9a" firstAttribute="top" secondItem="DVR-65-aAV" secondAttribute="top" constant="20" id="7h4-KF-lH1"/>
-                            <constraint firstItem="h5r-Y4-DNp" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="10" id="EPc-1g-76x"/>
-                            <constraint firstItem="e9V-AD-o91" firstAttribute="top" secondItem="h5r-Y4-DNp" secondAttribute="bottom" constant="25" id="G8b-AU-4gK"/>
-                            <constraint firstItem="RxL-HU-wS4" firstAttribute="leading" secondItem="h5r-Y4-DNp" secondAttribute="trailing" constant="23" id="Gwh-q0-fNT"/>
-                            <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="RxL-HU-wS4" secondAttribute="trailing" constant="85" id="HLu-zh-pys"/>
-                            <constraint firstItem="wKA-xG-Rka" firstAttribute="top" secondItem="e9V-AD-o91" secondAttribute="bottom" constant="55" id="O97-qn-zYd"/>
-                            <constraint firstItem="e9V-AD-o91" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="TLV-Me-jg8"/>
-                            <constraint firstItem="RxL-HU-wS4" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="10" id="WPr-9a-4Yv"/>
-                            <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="Q4N-jw-OZG" secondAttribute="trailing" constant="85" id="XvS-Vl-2kc"/>
+                            <constraint firstItem="e9V-AD-o91" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="0bK-Hf-JH5"/>
+                            <constraint firstItem="z5U-3K-D9a" firstAttribute="top" secondItem="DVR-65-aAV" secondAttribute="top" constant="15" id="7h4-KF-lH1"/>
+                            <constraint firstItem="D1U-uQ-ozR" firstAttribute="top" secondItem="7yH-t1-fA5" secondAttribute="bottom" constant="8" symbolic="YES" id="804-yG-EQp"/>
+                            <constraint firstItem="e9V-AD-o91" firstAttribute="centerY" secondItem="3ra-yZ-WQl" secondAttribute="centerY" id="IAE-1b-JbP"/>
+                            <constraint firstItem="7yH-t1-fA5" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="JlK-x4-bo0"/>
+                            <constraint firstItem="Xcd-nY-Plw" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="VF0-b2-5kq"/>
                             <constraint firstItem="z5U-3K-D9a" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="20" id="Yzf-q4-e1t"/>
                             <constraint firstItem="DVR-65-aAV" firstAttribute="trailing" secondItem="z5U-3K-D9a" secondAttribute="trailing" constant="20" id="g3N-DH-pap"/>
-                            <constraint firstItem="Q4N-jw-OZG" firstAttribute="leading" secondItem="wKA-xG-Rka" secondAttribute="trailing" constant="23" id="gIU-xP-iFG"/>
                             <constraint firstItem="jWC-V2-eZe" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="hYe-H5-SfQ"/>
-                            <constraint firstItem="Q4N-jw-OZG" firstAttribute="top" secondItem="e9V-AD-o91" secondAttribute="bottom" constant="55" id="jms-Mb-SKB"/>
-                            <constraint firstItem="wKA-xG-Rka" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="85" id="ovQ-q5-qYL"/>
-                            <constraint firstItem="jWC-V2-eZe" firstAttribute="top" secondItem="z5U-3K-D9a" secondAttribute="bottom" constant="25" id="pGt-s0-bex"/>
-                            <constraint firstItem="h5r-Y4-DNp" firstAttribute="leading" secondItem="DVR-65-aAV" secondAttribute="leading" constant="85" id="xyQ-Cx-Kcl"/>
+                            <constraint firstItem="D1U-uQ-ozR" firstAttribute="bottom" secondItem="DVR-65-aAV" secondAttribute="bottom" id="huD-bS-spx"/>
+                            <constraint firstItem="D1U-uQ-ozR" firstAttribute="centerX" secondItem="3ra-yZ-WQl" secondAttribute="centerX" id="j5u-UN-M50"/>
+                            <constraint firstItem="jWC-V2-eZe" firstAttribute="top" secondItem="z5U-3K-D9a" secondAttribute="bottom" constant="15" id="pGt-s0-bex"/>
+                            <constraint firstItem="Xcd-nY-Plw" firstAttribute="top" secondItem="jWC-V2-eZe" secondAttribute="bottom" constant="15" id="vub-Be-Ml3"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Grass" image="leaf.circle" catalog="system" selectedImage="leaf.circle" id="2Nn-Bn-5gp">
